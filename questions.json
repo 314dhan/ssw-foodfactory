@@ -1,0 +1,1107 @@
+
+{
+  "in": [
+    {
+      "question": "Manakah di antara berikut ini yang merupakan tiga jenis utama faktor bahaya dalam keamanan pangan?",
+      "options": [
+        "Fisik, Kimia, Biologis",
+        "Panas, Dingin, Basah",
+        "Tajam, Tumpul, Keras",
+        "Virus, Bakteri, Jamur"
+      ],
+      "answer": "Fisik, Kimia, Biologis",
+      "id": 1
+    },
+    {
+      "question": "Berapa suhu inti yang direkomendasikan untuk membunuh Norovirus saat memasak?",
+      "options": [
+        "60°C selama 1 menit",
+        "75°C selama 1 menit",
+        "85°C - 90°C selama 90 detik",
+        "100°C selama 30 detik"
+      ],
+      "answer": "85°C - 90°C selama 90 detik",
+      "id": 2
+    },
+    {
+      "question": "Dalam prinsip 5S/5R, apa arti dari 'Seiri' (Ringkas)?",
+      "options": [
+        "Menyingkirkan barang yang tidak perlu",
+        "Mengatur barang agar mudah ditemukan",
+        "Membersihkan tempat kerja",
+        "Menjaga kebersihan dan kerapian"
+      ],
+      "answer": "Menyingkirkan barang yang tidak perlu",
+      "id": 3
+    },
+    {
+      "question": "Menurut materi, kecelakaan kerja apa yang paling sering terjadi di industri pengolahan makanan?",
+      "options": [
+        "Terbakar",
+        "Terpeleset/tersandung",
+        "Jatuh dari ketinggian",
+        "Keracunan bahan kimia"
+      ],
+      "answer": "Terpeleset/tersandung",
+      "id": 4
+    },
+    {
+      "question": "Apa kepanjangan dari HACCP?",
+      "options": [
+        "Hazard Analysis and Critical Control Points",
+        "Health and Cleanliness Control Program",
+        "Hazard and Contamination Check Point",
+        "Healthy and Certified Company Program"
+      ],
+      "answer": "Hazard Analysis and Critical Control Points",
+      "id": 5
+    },
+    {
+      "question": "Berikut ini yang BUKAN merupakan prinsip pencegahan keracunan makanan oleh bakteri adalah...",
+      "options": [
+        "Menjauhkan",
+        "Mencegah berkembang biak",
+        "Memberantas",
+        "Mencicipi"
+      ],
+      "answer": "Mencicipi",
+      "id": 6
+    },
+    {
+      "question": "Barang pribadi apa yang dilarang untuk dibawa atau dikenakan di area kerja?",
+      "options": [
+        "Kacamata",
+        "Cincin dan jam tangan",
+        "Sepatu kerja",
+        "Masker"
+      ],
+      "answer": "Cincin dan jam tangan",
+      "id": 7
+    },
+    {
+      "question": "Berapa suhu yang ditetapkan untuk freezer menurut Undang-undang Sanitasi Pangan?",
+      "options": [
+        "0°C atau lebih rendah",
+        "-5°C atau lebih rendah",
+        "-10°C atau lebih rendah",
+        "-15°C atau lebih rendah"
+      ],
+      "answer": "-15°C atau lebih rendah",
+      "id": 8
+    },
+    {
+      "question": "Apa yang harus dilakukan jika menemukan benda asing (keras atau tidak) dalam makanan?",
+      "options": [
+        "Membuangnya dan melanjutkan pekerjaan",
+        "Segera hentikan pekerjaan dan lapor kepada penanggung jawab",
+        "Menyimpannya untuk diperiksa nanti",
+        "Mengabaikannya jika ukurannya kecil"
+      ],
+      "answer": "Segera hentikan pekerjaan dan lapor kepada penanggung jawab",
+      "id": 9
+    },
+    {
+      "question": "Manakah di antara ini yang termasuk dalam 'bahaya kimia'?",
+      "options": [
+        "Potongan logam",
+        "Bakteri Salmonella",
+        "Zat alergi (alergen)",
+        "Rambut"
+      ],
+      "answer": "Zat alergi (alergen)",
+      "id": 10
+    },
+    {
+      "question": "Dalam prinsip 5S/5R, apa arti dari 'Seiton' (Rapi)?",
+      "options": [
+        "Menyingkirkan barang yang tidak perlu",
+        "Mengatur barang agar mudah diakses saat dibutuhkan",
+        "Membersihkan kotoran dari tempat kerja",
+        "Mematuhi aturan yang telah ditetapkan"
+      ],
+      "answer": "Mengatur barang agar mudah diakses saat dibutuhkan",
+      "id": 11
+    },
+    {
+      "question": "Keracunan makanan akibat mengonsumsi kentang yang berkecambah atau berwarna hijau disebabkan oleh zat apa?",
+      "options": [
+        "Histamin",
+        "Aflatoksin",
+        "Solanin",
+        "Anisakis"
+      ],
+      "answer": "Solanin",
+      "id": 12
+    },
+    {
+      "question": "Parasit Anisakis yang dapat menyebabkan sakit perut parah sering ditemukan pada makanan apa?",
+      "options": [
+        "Daging sapi mentah",
+        "Sayuran yang tidak dicuci",
+        "Makanan laut mentah seperti makarel dan cumi",
+        "Produk susu yang tidak dipasteurisasi"
+      ],
+      "answer": "Makanan laut mentah seperti makarel dan cumi",
+      "id": 13
+    },
+    {
+      "question": "Kecelakaan kerja 'terjepit/terjerat' paling sering terjadi saat...?",
+      "options": [
+        "Berlari di lantai yang basah",
+        "Menggunakan mesin seperti konveyor atau pisau pemotong",
+        "Mengangkat benda berat dengan posisi salah",
+        "Bekerja di ketinggian tanpa pengaman"
+      ],
+      "answer": "Menggunakan mesin seperti konveyor atau pisau pemotong",
+      "id": 14
+    },
+    {
+      "question": "Menurut standar, berapa suhu yang direkomendasikan untuk menyimpan daging segar (bukan beku)?",
+      "options": [
+        "20°C atau lebih rendah",
+        "10°C atau lebih rendah",
+        "0°C atau lebih rendah",
+        "-15°C atau lebih rendah"
+      ],
+      "answer": "10°C atau lebih rendah",
+      "id": 15
+    },
+    {
+      "question": "Di pabrik makanan, area untuk menangani bahan baku yang dibawa dari luar dan belum diproses disebut...?",
+      "options": [
+        "Area kerja bersih",
+        "Area kerja semi-bersih",
+        "Area kerja terkontaminasi",
+        "Ruang penyimpanan"
+      ],
+      "answer": "Area kerja terkontaminasi",
+      "id": 16
+    },
+    {
+      "question": "Prinsip 'masuk pertama, keluar pertama' (first-in, first-out) dalam manajemen bahan baku berarti...",
+      "options": [
+        "Bahan yang paling mahal digunakan dulu",
+        "Bahan yang diterima lebih dulu harus digunakan lebih dulu",
+        "Bahan yang paling mudah rusak digunakan dulu",
+        "Menggunakan bahan secara acak"
+      ],
+      "answer": "Bahan yang diterima lebih dulu harus digunakan lebih dulu",
+      "id": 17
+    },
+    {
+      "question": "Alat apa yang digunakan untuk mendeteksi benda asing keras seperti batu dan kaca yang tidak bisa dideteksi oleh detektor logam?",
+      "options": [
+        "Detektor inframerah",
+        "Detektor suara",
+        "Detektor benda asing sinar-X",
+        "Timbangan digital"
+      ],
+      "answer": "Detektor benda asing sinar-X",
+      "id": 18
+    },
+    {
+      "question": "Kapan waktu yang penting untuk mencuci tangan untuk mencegah kontaminasi silang?",
+      "options": [
+        "Setelah selesai bekerja",
+        "Sebelum makan siang",
+        "Setelah dari toilet dan sebelum menyentuh makanan",
+        "Saat merasa tangan kotor"
+      ],
+      "answer": "Setelah dari toilet dan sebelum menyentuh makanan",
+      "id": 19
+    },
+    {
+      "question": "Apa arti dari tanggal 'Use by Date' (Gunakan Sebelum) pada produk makanan?",
+      "options": [
+        "Tanggal terbaik untuk dikonsumsi",
+        "Tanggal terakhir produk boleh dijual",
+        "Tanggal terakhir bahan baku aman untuk digunakan",
+        "Tanggal produksi"
+      ],
+      "answer": "Tanggal terakhir bahan baku aman untuk digunakan",
+      "id": 20
+    },
+    {
+      "question": "Menurut Piramida Heinrich, untuk setiap 1 kecelakaan kerja besar, diperkirakan terjadi berapa banyak kejadian 'nyaris celaka'?",
+      "options": [
+        "10",
+        "29",
+        "100",
+        "300"
+      ],
+      "answer": "300",
+      "id": 21
+    },
+    {
+      "question": "Apa tujuan utama dari praktik 'tunjuk sebut' (menunjuk dan menyebutkan) dalam keselamatan kerja?",
+      "options": [
+        "Untuk melatih suara",
+        "Untuk memastikan kesadaran dan mencegah kesalahan",
+        "Untuk melaporkan kepada atasan",
+        "Untuk mempercepat pekerjaan"
+      ],
+      "answer": "Untuk memastikan kesadaran dan mencegah kesalahan",
+      "id": 22
+    },
+    {
+      "question": "Perlengkapan keselamatan apa yang harus digunakan saat menangani bahan kimia cair untuk melindungi mata?",
+      "options": [
+        "Masker",
+        "Sarung tangan karet",
+        "Kacamata pelindung (goggle)",
+        "Topi keselamatan"
+      ],
+      "answer": "Kacamata pelindung (goggle)",
+      "id": 23
+    },
+    {
+      "question": "Apa tindakan pertama yang harus dilakukan jika terjadi kelainan pada mesin yang sedang beroperasi?",
+      "options": [
+        "Mencoba memperbaikinya sendiri",
+        "Melaporkan ke penanggung jawab",
+        "Menekan tombol stop darurat",
+        "Menjauh dari mesin"
+      ],
+      "answer": "Menekan tombol stop darurat",
+      "id": 24
+    },
+    {
+      "question": "Manakah cara yang paling efektif untuk mencegah sengatan panas (heat stroke) saat bekerja di lingkungan yang panas?",
+      "options": [
+        "Minum kopi untuk tetap waspada",
+        "Mengenakan pakaian yang sangat tebal",
+        "Beristirahat secara teratur dan minum banyak air",
+        "Bekerja lebih cepat agar cepat selesai"
+      ],
+      "answer": "Beristirahat secara teratur dan minum banyak air",
+      "id": 25
+    },
+    {
+      "question": "Gejala seperti demam, mual, atau diare harus segera dilaporkan kepada penanggung jawab sebelum mulai bekerja. Prosedur ini disebut...?",
+      "options": [
+        "Cek kesehatan",
+        "Inspeksi pra-operasional",
+        "Laporan kecelakaan",
+        "Prosedur 5S"
+      ],
+      "answer": "Cek kesehatan",
+      "id": 26
+    },
+    {
+      "question": "Apa tujuan utama menggunakan 'lint roller' atau 'air shower' sebelum memasuki area produksi?",
+      "options": [
+        "Mendinginkan badan",
+        "Membunuh bakteri pada pakaian",
+        "Menghilangkan rambut dan debu dari pakaian kerja",
+        "Membuat pakaian lebih rapi"
+      ],
+      "answer": "Menghilangkan rambut dan debu dari pakaian kerja",
+      "id": 27
+    },
+    {
+      "question": "Manakah yang BUKAN contoh dari 'bahaya fisik' dalam keamanan pangan?",
+      "options": [
+        "Potongan kaca",
+        "Bakteri pada daging mentah",
+        "Batu kerikil",
+        "Potongan plastik"
+      ],
+      "answer": "Bakteri pada daging mentah",
+      "id": 28
+    },
+    {
+      "question": "Menurut standar pendinginan, makanan yang telah dimasak panas harus diturunkan suhunya menjadi...?",
+      "options": [
+        "25°C dalam waktu 30 menit",
+        "20°C dalam waktu 90 menit",
+        "15°C dalam waktu 2 jam",
+        "10°C dalam waktu 60 menit"
+      ],
+      "answer": "10°C dalam waktu 60 menit",
+      "id": 29
+    },
+    {
+      "question": "Bagaimana cara yang benar untuk mengangkat benda berat untuk mencegah sakit pinggang?",
+      "options": [
+        "Membungkukkan pinggang dengan kaki lurus",
+        "Menekuk lutut, bukan pinggang, dan menjaga punggung tetap lurus",
+        "Mengangkat dengan cepat dan tiba-tiba",
+        "Menahan napas saat mengangkat"
+      ],
+      "answer": "Menekuk lutut, bukan pinggang, dan menjaga punggung tetap lurus",
+      "id": 30
+    },
+    {
+      "question": "Sistem keamanan yang secara otomatis menghentikan mesin jika terjadi kerusakan atau penyumbatan disebut...?",
+      "options": [
+        "Foolproof (anti-salah)",
+        "Fail-safe (gagal-aman)",
+        "Tombol stop darurat",
+        "Interlock"
+      ],
+      "answer": "Fail-safe (gagal-aman)",
+      "id": 31
+    },
+    {
+      "question": "Tanda keselamatan bergambar tangan dengan tulisan 'はさまれ注意' berarti...?",
+      "options": [
+        "Awas lantai licin",
+        "Awas bahaya terjepit",
+        "Dilarang menyentuh",
+        "Gunakan sarung tangan"
+      ],
+      "answer": "Awas bahaya terjepit",
+      "id": 32
+    },
+    {
+      "question": "Apa tujuan dari 'inspeksi pra-operasional' (Shigyou mae tenken) pada mesin?",
+      "options": [
+        "Memastikan mesin bersih untuk estetika",
+        "Memastikan mesin aman dioperasikan sebelum mulai bekerja",
+        "Menghitung jumlah produk yang akan dibuat",
+        "Memanaskan mesin agar lebih cepat"
+      ],
+      "answer": "Memastikan mesin aman dioperasikan sebelum mulai bekerja",
+      "id": 33
+    },
+    {
+      "question": "Mencairkan makanan beku dengan meletakkannya di lemari es disebut metode...?",
+      "options": [
+        "Pencairan alami",
+        "Pencairan air mengalir",
+        "Pencairan kulkas",
+        "Pencairan microwave"
+      ],
+      "answer": "Pencairan kulkas",
+      "id": 34
+    },
+    {
+      "question": "Bakteri Clostridium perfringens (bakteri Welshu) sering menjadi penyebab keracunan makanan pada hidangan seperti...?",
+      "options": [
+        "Salad sayuran segar",
+        "Sushi dan sashimi",
+        "Sup dan stew yang dimasak dalam jumlah besar dan didinginkan secara lambat",
+        "Roti dan kue kering"
+      ],
+      "answer": "Sup dan stew yang dimasak dalam jumlah besar dan didinginkan secara lambat",
+      "id": 35
+    },
+    {
+      "question": "Jika Anda menemukan wadah bahan kimia tanpa label di tempat kerja, apa yang harus Anda lakukan?",
+      "options": [
+        "Mencium baunya untuk menebak isinya",
+        "Membuangnya langsung ke tempat sampah",
+        "Segera melapor kepada penanggung jawab dan tidak menggunakannya",
+        "Memindahkannya ke wadah berlabel yang kosong"
+      ],
+      "answer": "Segera melapor kepada penanggung jawab dan tidak menggunakannya",
+      "id": 36
+    },
+    {
+      "question": "Menurut 7 Prinsip HACCP, setelah 'Analisis Bahaya' (Prinsip 1), langkah selanjutnya adalah...?",
+      "options": [
+        "Menetapkan batas kritis",
+        "Menetapkan titik kendali kritis (CCP)",
+        "Menetapkan prosedur pemantauan",
+        "Menetapkan tindakan korektif"
+      ],
+      "answer": "Menetapkan titik kendali kritis (CCP)",
+      "id": 37
+    },
+    {
+      "question": "Urutan yang benar saat mengenakan pakaian kerja adalah...",
+      "options": [
+        "Topi, hairnet, pakaian kerja",
+        "Pakaian kerja, hairnet, topi",
+        "Sikat rambut, hairnet, topi, lalu pakaian kerja",
+        "Hairnet, sikat rambut, pakaian kerja, topi"
+      ],
+      "answer": "Sikat rambut, hairnet, topi, lalu pakaian kerja",
+      "id": 38
+    },
+    {
+      "question": "Sistem keamanan yang dirancang untuk mencegah kecelakaan bahkan jika seseorang melakukan kesalahan disebut...?",
+      "options": [
+        "Foolproof (mudah diikuti dan tidak mungkin gagal)",
+        "Fail-safe (gagal-aman)",
+        "Alarm",
+        "Sensor gerak"
+      ],
+      "answer": "Foolproof (mudah diikuti dan tidak mungkin gagal)",
+      "id": 39
+    },
+    {
+      "question": "Apa yang dimaksud dengan 'kontaminasi silang' (Kousa osen)?",
+      "options": [
+        "Pencampuran bahan kimia yang berbahaya",
+        "Pindahnya bahaya dari benda/makanan kotor ke benda/makanan bersih",
+        "Makanan yang melewati tanggal kedaluwarsa",
+        "Pembersihan area kerja yang tidak benar"
+      ],
+      "answer": "Pindahnya bahaya dari benda/makanan kotor ke benda/makanan bersih",
+      "id": 40
+    },
+	{
+      "question": "Apa perbedaan utama antara 'Use by Date' dan 'Best Before Date'?",
+      "options": [
+        "'Use by Date' untuk keamanan, 'Best Before Date' untuk kualitas",
+        "'Use by Date' untuk kualitas, 'Best Before Date' untuk keamanan",
+        "Keduanya menunjukkan tanggal produk harus dibuang",
+        "Tidak ada perbedaan, keduanya sama"
+      ],
+      "answer": "'Use by Date' untuk keamanan, 'Best Before Date' untuk kualitas",
+      "id": 41
+    },
+    {
+      "question": "Apa tujuan dari 'Latihan Prediksi Bahaya' (Kiken Yochi Training/KYT)?",
+      "options": [
+        "Melatih kecepatan dalam bekerja",
+        "Menghukum pekerja yang melakukan kesalahan",
+        "Meningkatkan kesadaran akan potensi bahaya sebelum terjadi kecelakaan",
+        "Menguji kekuatan mesin produksi"
+      ],
+      "answer": "Meningkatkan kesadaran akan potensi bahaya sebelum terjadi kecelakaan",
+      "id": 42
+    },
+    {
+      "question": "Berapa suhu penyimpanan yang benar untuk makanan laut segar?",
+      "options": [
+        "10°C atau lebih rendah",
+        "5°C atau lebih rendah",
+        "0°C atau lebih rendah",
+        "-18°C atau lebih rendah"
+      ],
+      "answer": "5°C atau lebih rendah",
+      "id": 43
+    },
+    {
+      "question": "Apa yang harus dilakukan saat memperbaiki konveyor?",
+      "options": [
+        "Mematikannya dan menggantungkan tanda 'Sedang diperbaiki'",
+        "Membiarkannya menyala agar cepat selesai",
+        "Meminta rekan kerja mematikan jika terjadi sesuatu",
+        "Hanya membersihkan bagian yang terlihat"
+      ],
+      "answer": "Mematikannya dan menggantungkan tanda 'Sedang diperbaiki'",
+      "id": 44
+    },
+    {
+      "question": "Manakah bahan baku yang wajib diberi label alergen 'tertentu' di Jepang per 9 Maret 2023?",
+      "options": [
+        "Udang, Kepiting, Kenari, Gandum, Soba, Telur, Susu, Kacang",
+        "Daging sapi, Wijen, Ikan Salmon, Kedelai",
+        "Pisang, Apel, Persik, Kiwi",
+        "Cumi, Kerang abalon, Jamur matsutake"
+      ],
+      "answer": "Udang, Kepiting, Kenari, Gandum, Soba, Telur, Susu, Kacang",
+      "id": 45
+    },
+    {
+      "question": "Apa tindakan yang benar jika menemukan seseorang tergeletak karena kecelakaan kerja?",
+      "options": [
+        "Langsung menarik korban menjauh",
+        "Memeriksa situasi sekitar terlebih dahulu untuk mencegah kecelakaan sekunder",
+        "Mencari penanggung jawab tanpa melakukan apa-apa",
+        "Merekam kejadian untuk laporan"
+      ],
+      "answer": "Memeriksa situasi sekitar terlebih dahulu untuk mencegah kecelakaan sekunder",
+      "id": 46
+    },
+    {
+      "question": "Mengapa dokumen dengan staples atau klip kertas tidak boleh dibawa ke area kerja?",
+      "options": [
+        "Karena bisa mengotori dokumen lain",
+        "Karena staples atau klip bisa patah dan masuk ke makanan sebagai benda asing",
+        "Karena tidak terlihat profesional",
+        "Karena memakan tempat"
+      ],
+      "answer": "Karena staples atau klip bisa patah dan masuk ke makanan sebagai benda asing",
+      "id": 47
+    },
+    {
+      "question": "Bagaimana cara mencegah 'keracunan histamin' pada ikan?",
+      "options": [
+        "Memasak ikan pada suhu yang sangat tinggi",
+        "Menyimpan ikan pada suhu rendah (didinginkan atau dibekukan) segera setelah ditangkap",
+        "Mencuci ikan dengan air garam",
+        "Menambahkan cuka saat memasak"
+      ],
+      "answer": "Menyimpan ikan pada suhu rendah (didinginkan atau dibekukan) segera setelah ditangkap",
+      "id": 48
+    },
+    {
+      "question": "Apa arti dari rambu keselamatan '頭上注意' (Zujou Chuui)?",
+      "options": [
+        "Awas lantai licin",
+        "Awas bahaya terbentur kepala",
+        "Gunakan helm",
+        "Area tegangan listrik tinggi"
+      ],
+      "answer": "Awas bahaya terbentur kepala",
+      "id": 49
+    },
+    {
+      "question": "Manakah yang merupakan contoh penerapan 'fail-safe' pada mesin?",
+      "options": [
+        "Mesin yang hanya bisa dioperasikan oleh satu orang",
+        "Mesin yang otomatis berhenti jika ada suku cadang yang rusak atau produk tersumbat",
+        "Mesin yang memiliki penutup untuk mencegah tangan masuk",
+        "Mesin yang berbunyi alarm saat dinyalakan"
+      ],
+      "answer": "Mesin yang otomatis berhenti jika ada suku cadang yang rusak atau produk tersumbat",
+      "id": 50
+    }
+  ],
+  "jp": [
+    {
+      "question": "食品 (しょくひん) 安全 (あんぜん)における 主 (おも)な3 種類 (しゅるい)の 危害 (きがい) 要因 (よういん)は 次 (つぎ)のうちどれですか？",
+      "options": [
+        "物理的 (ぶつりてき)、 化学的 (かがくてき)、 生物的 (せいぶつてき)",
+        "高温 (こうおん)、 低温 (ていおん)、 多湿 (たしつ)",
+        "鋭 (するど)い、 鈍 (にぶ)い、 硬 (かた)い",
+        "ウイルス、 細菌 (さいきん)、カビ"
+      ],
+      "answer": "物理的 (ぶつりてき)、 化学的 (かがくてき)、 生物的 (せいぶつてき)",
+      "id": 1
+    },
+    {
+      "question": "調理 (ちょうり) 時 (じ)にノロウイルスを 殺菌 (さっきん)するために 推奨 (すいしょう)される 中心 (ちゅうしん) 温度 (おんど)は 何度 (なんど)ですか？",
+      "options": [
+        "60℃で1 分 (ぷん)",
+        "75℃で1 分 (ぷん)",
+        "85℃～90℃で90 秒 (びょう)",
+        "100℃で30 秒 (びょう)"
+      ],
+      "answer": "85℃～90℃で90 秒 (びょう)",
+      "id": 2
+    },
+    {
+      "question": "5S 活動 (かつどう)における「 整理 (せいり)」の 意味 (いみ)は 何 (なん)ですか？",
+      "options": [
+        "不要 (ふよう)なものを 捨 (す)てること",
+        "物 (もの)を 探 (さが)しやすいように 整 (ととの)えること",
+        "職場 (しょくば)をきれいに 掃除 (そうじ)すること",
+        "清潔 (せいけつ)さと 整頓 (せいとん)を 維持 (いじ)すること"
+      ],
+      "answer": "不要 (ふよう)なものを 捨 (す)てること",
+      "id": 3
+    },
+    {
+      "question": "資料 (しりょう)によると、 食品 (しょくひん) 製造業 (せいぞうぎょう)で 最 (もっと)も 多 (おお)く 発生 (はっせい)する 労働 (ろうどう) 災害 (さいがい)は 何 (なん)ですか？",
+      "options": [
+        "やけど",
+        "転倒 (てんとう)",
+        "高所 (こうしょ)からの 墜落 (ついらく)",
+        "化学 (かがく) 物質 (ぶっしつ)による 中毒 (ちゅうどく)"
+      ],
+      "answer": "転倒 (てんとう)",
+      "id": 4
+    },
+    {
+      "question": "HACCPは 何 (なん)の 略 (りゃく)ですか？",
+      "options": [
+        "Hazard Analysis and Critical Control Points",
+        "Health and Cleanliness Control Program",
+        "Hazard and Contamination Check Point",
+        "Healthy and Certified Company Program"
+      ],
+      "answer": "Hazard Analysis and Critical Control Points",
+      "id": 5
+    },
+    {
+      "question": "細菌 (さいきん)による 食中毒 (しょくちゅうどく) 予防 (よぼう)の 三原則 (さんげんそく)に 含 (ふく)まれないものは 次 (つぎ)のうちどれですか？",
+      "options": [
+        "つけない",
+        " 増 (ふ)やさない",
+        "やっつける",
+        "味見 (あじみ)する"
+      ],
+      "answer": "味見 (あじみ)する",
+      "id": 6
+    },
+    {
+      "question": "作業 (さぎょう)エリアに 持 (も)ち 込 (こ)みが 禁止 (きんし)されている 私物 (しぶつ)はどれですか？",
+      "options": [
+        "眼鏡 (めがね)",
+        "指輪 (ゆびわ)や 腕時計 (うでどけい)",
+        "作業靴 (さぎょうぐつ)",
+        "マスク"
+      ],
+      "answer": "指輪 (ゆびわ)や 腕時計 (うでどけい)",
+      "id": 7
+    },
+    {
+      "question": "食品 (しょくひん) 衛生法 (えいせいほう)で 定 (さだ)められている 冷凍庫 (れいとうこ)の 温度 (おんど)は 何度 (なんど)ですか？",
+      "options": [
+        "0℃ 以下 (いか)",
+        "-5℃ 以下 (いか)",
+        "-10℃ 以下 (いか)",
+        "-15℃ 以下 (いか)"
+      ],
+      "answer": "-15℃ 以下 (いか)",
+      "id": 8
+    },
+    {
+      "question": "食品 (しょくひん)に 異物 (いぶつ)（ 硬質 (こうしつ)または 非 (ひ) 硬質 (こうしつ)）を 発見 (はっけん)した 場合 (ばあい)、どうすべきですか？",
+      "options": [
+        "捨 (す)てて 作業 (さぎょう)を 続 (つづ)ける",
+        "直 (ただ)ちに 作業 (さぎょう)を 中止 (ちゅうし)し、 責任者 (せきにんしゃ)に 報告 (ほうこく)する",
+        "後 (あと)で 確認 (かくにん)するために 保管 (ほかん)しておく",
+        "サイズが 小 (ちい)さければ 無視 (むし)する"
+      ],
+      "answer": "直 (ただ)ちに 作業 (さぎょう)を 中止 (ちゅうし)し、 責任者 (せきにんしゃ)に 報告 (ほうこく)する",
+      "id": 9
+    },
+    {
+      "question": "次 (つぎ)のうち、「 化学的 (かがくてき) 危害 (きがい) 要因 (よういん)」に 含 (ふく)まれるものはどれですか？",
+      "options": [
+        "金属片 (きんぞくへん)",
+        "サルモネラ 菌 (きん)",
+        "アレルギー 物質 (ぶっしつ)",
+        "髪 (かみ)の 毛 (け)"
+      ],
+      "answer": "アレルギー 物質 (ぶっしつ)",
+      "id": 10
+    },
+    {
+      "question": "5S 活動 (かつどう)における「 整頓 (せいとん)」の 意味 (いみ)は 何 (なん)ですか？",
+      "options": [
+        "不要 (ふよう)なものを 捨 (す)てること",
+        "必要 (ひつよう)なときに 物 (もの)がすぐに 取 (と)り 出 (だ)せるように 整 (ととの)えること",
+        "職場 (しょくば)の 汚 (よご)れを 掃除 (そうじ)すること",
+        "決 (き)められたルールを 守 (まも)ること"
+      ],
+      "answer": "必要 (ひつよう)なときに 物 (もの)がすぐに 取 (と)り 出 (だ)せるように 整 (ととの)えること",
+      "id": 11
+    },
+    {
+      "question": "じゃがいもの 芽 (め)や 緑色 (みどりいろ)の 皮 (かわ)を 食 (た)べることによる 食中毒 (しょくちゅうどく)の 原因 (げんいん) 物質 (ぶっしつ)は 何 (なん)ですか？",
+      "options": [
+        "ヒスタミン",
+        "アフラトキシン",
+        "ソラニン",
+        "アニサキス"
+      ],
+      "answer": "ソラニン",
+      "id": 12
+    },
+    {
+      "question": "激 (はげ)しい 腹痛 (ふくつう)を 引 (ひ)き 起 (お)こすことがある 寄生虫 (きせいちゅう)「アニサキス」は、どのような 食品 (しょくひん)によく 見 (み)られますか？",
+      "options": [
+        "生 (なま)の 牛肉 (ぎゅうにく)",
+        "洗 (あら)っていない 野菜 (やさい)",
+        "サバやイカなどの 生 (なま)の 魚介類 (ぎょかいるい)",
+        "低温 (ていおん) 殺菌 (さっきん)されていない 乳製品 (にゅうせいひん)"
+      ],
+      "answer": "サバやイカなどの 生 (なま)の 魚介類 (ぎょかいるい)",
+      "id": 13
+    },
+    {
+      "question": "労働 (ろうどう) 災害 (さいがい)の「はさまれ・ 巻 (ま)き 込 (こ)まれ」が 最 (もっと)も 起 (お)こりやすいのはどのような 時 (とき)ですか？",
+      "options": [
+        "濡 (ぬ)れた 床 (ゆか)を 走 (はし)っているとき",
+        "コンベアやカッターなどの 機械 (きかい)を 使 (つか)っているとき",
+        "不適切 (ふてきせつ)な 姿勢 (しせい)で 重 (おも)い 物 (もの)を 持 (も)ち 上 (あ)げたとき",
+        "安全帯 (あんぜんたい)なしで 高所 (こうしょ) 作業 (さぎょう)をしているとき"
+      ],
+      "answer": "コンベアやカッターなどの 機械 (きかい)を 使 (つか)っているとき",
+      "id": 14
+    },
+    {
+      "question": "基準 (きじゅん)によると、 生鮮 (せいせん) 食肉 (しょくにく)（ 冷凍 (れいとう)ではない）を 保管 (ほかん)する 推奨 (すいしょう) 温度 (おんど)は 何度 (なんど)ですか？",
+      "options": [
+        "20℃ 以下 (いか)",
+        "10℃ 以下 (いか)",
+        "0℃ 以下 (いか)",
+        "-15℃ 以下 (いか)"
+      ],
+      "answer": "10℃ 以下 (いか)",
+      "id": 15
+    },
+    {
+      "question": "食品 (しょくひん) 工場 (こうじょう)において、 外部 (がいぶ)から 搬入 (はんにゅう)された 未加工 (みかこう)の 原材料 (げんざいりょう)を 扱 (あつか)うエリアを 何 (なん)と 呼 (よ)びますか？",
+      "options": [
+        "清潔 (せいけつ) 作業 (さぎょう) 区域 (くいき)",
+        "準 (じゅん) 清潔 (せいけつ) 作業 (さぎょう) 区域 (くいき)",
+        "汚染 (おせん) 作業 (さぎょう) 区域 (くいき)",
+        "保管室 (ほかんしつ)"
+      ],
+      "answer": "汚染 (おせん) 作業 (さぎょう) 区域 (くいき)",
+      "id": 16
+    },
+    {
+      "question": "原材料 (げんざいりょう) 管理 (かんり)における「 先入 (さきい)れ 先出 (さきだ)し」の 原則 (げんそく)が 意味 (いみ)するものは 何 (なん)ですか？",
+      "options": [
+        "最 (もっと)も 高価 (こうか)な 材料 (ざいりょう)を 最初 (さいしょ)に 使用 (しよう)する",
+        "先 (さき)に 入荷 (にゅうか)した 材料 (ざいりょう)を 先 (さき)に 使用 (しよう)する",
+        "最 (もっと)も 傷 (いた)みやすい 材料 (ざいりょう)を 最初 (さいしょ)に 使用 (しよう)する",
+        "材料 (ざいりょう)をランダムに 使用 (しよう)する"
+      ],
+      "answer": "先 (さき)に 入荷 (にゅうか)した 材料 (ざいりょう)を 先 (さき)に 使用 (しよう)する",
+      "id": 17
+    },
+    {
+      "question": "金属 (きんぞく) 探知機 (たんちき)では 検出 (けんしゅつ)できない 石 (いし)やガラスなどの 硬質 (こうしつ) 異物 (いぶつ)を 検出 (けんしゅつ)するために 使用 (しよう)される 装置 (そうち)は 何 (なん)ですか？",
+      "options": [
+        "赤外線 (せきがいせん) 検出器 (けんしゅつき)",
+        "音響 (おんきょう) 検出器 (けんしゅつき)",
+        "X 線 (せん) 異物 (いぶつ) 検出機 (けんしゅつき)",
+        "デジタル 重量計 (じゅうりょうけい)"
+      ],
+      "answer": "X 線 (せん) 異物 (いぶつ) 検出機 (けんしゅつき)",
+      "id": 18
+    },
+    {
+      "question": "交差 (こうさ) 汚染 (おせん)を 防 (ふせ)ぐために、 特 (とく)に 重要 (じゅうよう)な 手洗 (てあら)いのタイミングはいつですか？",
+      "options": [
+        "作業 (さぎょう) 終了後 (しゅうりょうご)",
+        "昼食前 (ちゅうしょくまえ)",
+        "トイレの 後 (あと)、 食品 (しょくひん)に 触 (ふ)れる 前 (まえ)",
+        "手 (て)が 汚 (よご)れたと 感 (かん)じたとき"
+      ],
+      "answer": "トイレの 後 (あと)、 食品 (しょくひん)に 触 (ふ)れる 前 (まえ)",
+      "id": 19
+    },
+    {
+      "question": "食品 (しょくひん)に 表示 (ひょうじ)される「 使用 (しよう) 期限 (きげん)」はどのような 意味 (いみ)ですか？",
+      "options": [
+        "最 (もっと)も 美味 (おい)しく 食 (た)べられる 日 (ひ)",
+        "製品 (せいひん)を 販売 (はんばい)できる 最終日 (さいしゅうび)",
+        "原材料 (げんざいりょう)を 安全 (あんぜん)に 使用 (しよう)できる 最終日 (さいしゅうび)",
+        "製造 (せいぞう) 年月日 (ねんがっぴ)"
+      ],
+      "answer": "原材料 (げんざいりょう)を 安全 (あんぜん)に 使用 (しよう)できる 最終日 (さいしゅうび)",
+      "id": 20
+    },
+    {
+      "question": "ハインリッヒの 法則 (ほうそく)によると、1 件 (けん)の 重 (おも)い 災害 (さいがい)の 背景 (はいけい)には、 約 (やく) 何件 (なんけん)の「ヒヤリ・ハット」があるとされていますか？",
+      "options": [
+        "10 件 (けん)",
+        "29 件 (けん)",
+        "100 件 (けん)",
+        "300 件 (けん)"
+      ],
+      "answer": "300 件 (けん)",
+      "id": 21
+    },
+    {
+      "question": "労働 (ろうどう) 安全 (あんぜん)における「 指差 (ゆびさ)し 呼称 (こしょう)」の 主 (おも)な 目的 (もくてき)は 何 (なん)ですか？",
+      "options": [
+        "声 (こえ)を 訓練 (くんれん)するため",
+        "意識 (いしき)を 明確 (めいかく)にし、 間違 (まちが)いを 防 (ふせ)ぐため",
+        "上司 (じょうし)に 報告 (ほうこく)するため",
+        "作業 (さぎょう)を 速 (はや)めるため"
+      ],
+      "answer": "意識 (いしき)を 明確 (めいかく)にし、 間違 (まちが)いを 防 (ふせ)ぐため",
+      "id": 22
+    },
+    {
+      "question": "液体 (えきたい)の 化学 (かがく) 薬品 (やくひん)を 取 (と)り 扱 (あつか)う 際 (さい)に、 眼 (め)を 保護 (ほご)するために 使用 (しよう)すべき 保護具 (ほごぐ)は 何 (なん)ですか？",
+      "options": [
+        "マスク",
+        "ゴム 手袋 (てぶくろ)",
+        "保護 (ほご)メガネ（ゴーグル）",
+        "安全帽 (あんぜんぼう)"
+      ],
+      "answer": "保護 (ほご)メガネ（ゴーグル）",
+      "id": 23
+    },
+    {
+      "question": "稼働中 (かどうちゅう)の 機械 (きかい)に 異常 (いじょう)が 発生 (はっせい)した 場合 (ばあい)、 最初 (さいしょ)にとるべき 行動 (こうどう)は 何 (なん)ですか？",
+      "options": [
+        "自分 (じぶん)で 修理 (しゅうり)を 試 (こころ)みる",
+        "責任者 (せきにんしゃ)に 報告 (ほうこく)する",
+        "非常 (ひじょう) 停止 (ていし)ボタンを 押 (お)す",
+        "機械 (きかい)から 離 (はな)れる"
+      ],
+      "answer": "非常 (ひじょう) 停止 (ていし)ボタンを 押 (お)す",
+      "id": 24
+    },
+    {
+      "question": "高温 (こうおん) 環境 (かんきょう)での 作業中 (さぎょうちゅう)に 熱中症 (ねっちゅうしょう)を 防 (ふせ)ぐための 最 (もっと)も 効果的 (こうかてき)な 方法 (ほうほう)は 何 (なん)ですか？",
+      "options": [
+        "眠気 (ねむけ)を 覚 (さ)ますためにコーヒーを 飲 (の)む",
+        "非常 (ひじょう)に 厚着 (あつぎ)をする",
+        "定期的 (ていきてき)に 休憩 (きゅうけい)を 取 (と)り、 十分 (じゅうぶん)な 水分 (すいぶん)を 補給 (ほきゅう)する",
+        "早 (はや)く 終 (お)わらせるために 作業 (さぎょう)ペースを 上 (あ)げる"
+      ],
+      "answer": "定期的 (ていきてき)に 休憩 (きゅうけい)を 取 (と)り、 十分 (じゅうぶん)な 水分 (すいぶん)を 補給 (ほきゅう)する",
+      "id": 25
+    },
+    {
+      "question": "熱 (ねつ)や 吐 (は)き 気 (け)、 下痢 (げり)などの 症状 (しょうじょう)がある 場合 (ばあい)に、 作業 (さぎょう)を 始 (はじ)める 前 (まえ)に 責任者 (せきにんしゃ)へ 報告 (ほうこく)する 手順 (てじゅん)を 何 (なん)といいますか？",
+      "options": [
+        "健康 (けんこう)チェック",
+        "始業 (しぎょう) 前 (まえ) 点検 (てんけん)",
+        "事故 (じこ) 報告 (ほうこく)",
+        "5S 手順 (てじゅん)"
+      ],
+      "answer": "健康 (けんこう)チェック",
+      "id": 26
+    },
+    {
+      "question": "生産 (せいさん)エリアに 入 (はい)る 前 (まえ)に「 粘着 (ねんちゃく)ローラー」や「エアシャワー」を 使用 (しよう)する 主 (おも)な 目的 (もくてき)は 何 (なん)ですか？",
+      "options": [
+        "体 (からだ)を 冷 (ひ)やすため",
+        "服 (ふく)の 細菌 (さいきん)を 殺 (ころ)すため",
+        "作業服 (さぎょうふく)についた 髪 (かみ)の 毛 (け)やほこりを 取 (と)り 除 (のぞ)くため",
+        "服 (ふく)をきれいに 見 (み)せるため"
+      ],
+      "answer": "作業服 (さぎょうふく)についた 髪 (かみ)の 毛 (け)やほこりを 取 (と)り 除 (のぞ)くため",
+      "id": 27
+    },
+    {
+      "question": "食品 (しょくひん) 安全 (あんぜん)における「 物理的 (ぶつりてき) 危害 (きがい)」に 当 (あ)てはまらないものはどれですか？",
+      "options": [
+        "ガラスの 破片 (はへん)",
+        "生肉 (なまにく)の 細菌 (さいきん)",
+        "小石 (こいし)",
+        "プラスチックの 破片 (はへん)"
+      ],
+      "answer": "生肉 (なまにく)の 細菌 (さいきん)",
+      "id": 28
+    },
+    {
+      "question": "冷却 (れいきゃく)の 基準 (きじゅん)によると、 加熱 (かねつ) 調理 (ちょうり)した 食品 (しょくひん)はどのように 温度 (おんど)を 下 (さ)げるべきですか？",
+      "options": [
+        "30 分 (ぷん) 以内 (いない)に25℃まで",
+        "90 分 (ぷん) 以内 (いない)に20℃まで",
+        "2 時間 (じかん) 以内 (いない)に15℃まで",
+        "60 分 (ぷん) 以内 (いない)に10℃まで"
+      ],
+      "answer": "60 分 (ぷん) 以内 (いない)に10℃まで",
+      "id": 29
+    },
+    {
+      "question": "腰痛 (ようつう)を 防 (ふせ)ぐための、 重 (おも)い 物 (もの)の 正 (ただ)しい 持 (も)ち 上 (あ)げ 方 (かた)はどれですか？",
+      "options": [
+        "足 (あし)を 伸 (の)ばしたまま 腰 (こし)を 曲 (ま)げる",
+        "腰 (こし)ではなく 膝 (ひざ)を 曲 (ま)げ、 背中 (せなか)はまっすぐに 保 (たも)つ",
+        "速 (すば)やく、 突発的 (とっぱつてき)に 持 (も)ち 上 (あ)げる",
+        "息 (いき)を 止 (と)めて 持 (も)ち 上 (あ)げる"
+      ],
+      "answer": "腰 (こし)ではなく 膝 (ひざ)を 曲 (ま)げ、 背中 (せなか)はまっすぐに 保 (たも)つ",
+      "id": 30
+    },
+    {
+      "question": "故障 (こしょう)や 詰 (つ)まりが 起 (お)きた 際 (さい)に、 機械 (きかい)を 自動的 (じどうてき)に 停止 (ていし)させる 安全 (あんぜん)システムを 何 (なん)と 呼 (よ)びますか？",
+      "options": [
+        "フールプルーフ",
+        "フェールセーフ",
+        "非常 (ひじょう) 停止 (ていし)ボタン",
+        "インターロック"
+      ],
+      "answer": "フェールセーフ",
+      "id": 31
+    },
+    {
+      "question": "「はさまれ 注意 (ちゅうい)」と 書 (か)かれた 手 (て)の 絵 (え)の 安全 (あんぜん) 標識 (ひょうしき)は 何 (なに)を 意味 (いみ)しますか？",
+      "options": [
+        "滑 (すべ)りやすい 床 (ゆか)に 注意 (ちゅうい)",
+        "はさまれる 危険 (きけん)に 注意 (ちゅうい)",
+        "触 (さわ)るな",
+        "手袋 (てぶくろ)を 使用 (しよう)せよ"
+      ],
+      "answer": "はさまれる 危険 (きけん)に 注意 (ちゅうい)",
+      "id": 32
+    },
+    {
+      "question": "機械 (きかい)の「 始業 (しぎょう) 前 (まえ) 点検 (てんけん)」の 目的 (もくてき)は 何 (なん)ですか？",
+      "options": [
+        "見 (み)た 目 (め)のために 機械 (きかい)をきれいにしておくこと",
+        "作業 (さぎょう) 開始 (かいし) 前 (まえ)に 機械 (きかい)が 安全 (あんぜん)に 操作 (そうさ)できることを 確認 (かくにん)するため",
+        "製造 (せいぞう)する 製品 (せいひん)の 数 (かず)を 計算 (けいさん)するため",
+        "より 速 (はや)く 動 (うご)くように 機械 (きかい)を 温 (あたた)めるため"
+      ],
+      "answer": "作業 (さぎょう) 開始 (かいし) 前 (まえ)に 機械 (きかい)が 安全 (あんぜん)に 操作 (そうさ)できることを 確認 (かくにん)するため",
+      "id": 33
+    },
+    {
+      "question": "冷凍 (れいとう) 食品 (しょくひん)を 冷蔵庫 (れいぞうこ)の 中 (なか)で 解凍 (かいとう)する 方法 (ほうほう)を 何 (なん)と 言 (い)いますか？",
+      "options": [
+        "自然 (しぜん) 解凍 (かいとう)",
+        "流水 (りゅうすい) 解凍 (かいとう)",
+        "冷蔵庫 (れいぞうこ) 解凍 (かいとう)",
+        "電子 (でんし)レンジ 解凍 (かいとう)"
+      ],
+      "answer": "冷蔵庫 (れいぞうこ) 解凍 (かいとう)",
+      "id": 34
+    },
+    {
+      "question": "ウェルシュ 菌 (きん)による 食中毒 (しょくちゅうどく)は、どのような 料理 (りょうり)で 起 (お)こりやすいですか？",
+      "options": [
+        "新鮮 (しんせん)な 野菜 (やさい)サラダ",
+        "寿司 (すし)や 刺身 (さしみ)",
+        "大量 (たいりょう)に 調理 (ちょうり)され、ゆっくり 冷却 (れいきゃく)されたスープやシチュー",
+        "パンやクッキー"
+      ],
+      "answer": "大量 (たいりょう)に 調理 (ちょうり)され、ゆっくり 冷却 (れいきゃく)されたスープやシチュー",
+      "id": 35
+    },
+    {
+      "question": "職場 (しょくば)でラベルのない 化学薬品 (かがくやくひん)の 容器 (ようき)を 見 (み)つけたら、どうすべきですか？",
+      "options": [
+        "匂 (にお)いをかいで 中身 (なかみ)を 推測 (すいそく)する",
+        "直接 (ちょくせつ)ゴミ 箱 (ばこ)に 捨 (す)てる",
+        "すぐに 責任者 (せきにんしゃ)に 報告 (ほうこく)し、 使用 (しよう)しない",
+        "空 (あ)いているラベル 付き (つき)の 容器 (ようき)に 移 (うつ)す"
+      ],
+      "answer": "すぐに 責任者 (せきにんしゃ)に 報告 (ほうこく)し、 使用 (しよう)しない",
+      "id": 36
+    },
+    {
+      "question": "HACCPの7 原則 (げんそく)において、「 危害要因分析 (きがいよういんぶんせき)」（ 原則 (げんそく)1）の 次 (つぎ)のステップは 何 (なん)ですか？",
+      "options": [
+        "管理 (かんり) 基準 (きじゅん)の 設定 (せってい)",
+        "重要 (じゅうよう) 管理点 (かんりてん)（CCP）の 決定 (けってい)",
+        "モニタリング 方法 (ほうほう)の 設定 (せってい)",
+        "是正 (ぜせい) 措置 (そち)の 設定 (せってい)"
+      ],
+      "answer": "重要 (じゅうよう) 管理点 (かんりてん)（CCP）の 決定 (けってい)",
+      "id": 37
+    },
+    {
+      "question": "正 (ただ)しい 作業服 (さぎょうふく)の 着用 (ちゃくよう) 順序 (じゅんじょ)はどれですか？",
+      "options": [
+        "帽子 (ぼうし)、ヘアネット、 作業服 (さぎょうふく)",
+        "作業服 (さぎょうふく)、ヘアネット、 帽子 (ぼうし)",
+        "ブラッシング、ヘアネット、 帽子 (ぼうし)、そして 作業服 (さぎょうふく)",
+        "ヘアネット、ブラッシング、 作業服 (さぎょうふく)、 帽子 (ぼうし)"
+      ],
+      "answer": "ブラッシング、ヘアネット、 帽子 (ぼうし)、そして 作業服 (さぎょうふく)",
+      "id": 38
+    },
+    {
+      "question": "人 (ひと)が 間違 (まちが)った 操作 (そうさ)をしても 事故 (じこ)が 起 (お)こらないように 設計 (せっけい)された 安全 (あんぜん)の 仕組 (しく)みを 何 (なん)と 呼 (よ)びますか？",
+      "options": [
+        "フールプルーフ",
+        "フェールセーフ",
+        "アラーム",
+        "モーションセンサー"
+      ],
+      "answer": "フールプルーフ",
+      "id": 39
+    },
+    {
+      "question": "「 交差 (こうさ) 汚染 (おせん)」とは 何 (なん)ですか？",
+      "options": [
+        "危険 (きけん)な 化学薬品 (かがくやくひん)の 混合 (こんごう)",
+        "汚 (よご)れたものから 清潔 (せいけつ)なものへ 危害要因 (きがいよういん)が 移 (うつ)ること",
+        "賞味 (しょうみ) 期限 (きげん) 切 (ぎ)れの 食品 (しょくひん)",
+        "不適切 (ふてきせつ)な 作業場 (さぎょうば)の 清掃 (せいそう)"
+      ],
+      "answer": "汚 (よご)れたものから 清潔 (せいけつ)なものへ 危害要因 (きがいよういん)が 移 (うつ)ること",
+      "id": 40
+    },
+	{
+      "question": "「消費期限」と「賞味期限」の主な違いは何ですか？",
+      "options": [
+        "「消費期限」は安全性、「賞味期限」は品質のため",
+        "「消費期限」は品質、「賞味期限」は安全性のため",
+        "両方とも製品を廃棄すべき日を示す",
+        "違いはなく、どちらも同じ意味"
+      ],
+      "answer": "「消費期限」は安全性、「賞味期限」は品質のため",
+      "id": 41
+    },
+    {
+      "question": "危険予知訓練（KYT）の目的は何ですか？",
+      "options": [
+        "作業のスピードを訓練するため",
+        "ミスを犯した作業員を罰するため",
+        "事故が起こる前に潜在的な危険に気づく意識を高めるため",
+        "生産機械の強度をテストするため"
+      ],
+      "answer": "事故が起こる前に潜在的な危険に気づく意識を高めるため",
+      "id": 42
+    },
+    {
+      "question": "生鮮魚介類の正しい保管温度は何度ですか？",
+      "options": [
+        "10℃以下",
+        "5℃以下",
+        "0℃以下",
+        "-18℃以下"
+      ],
+      "answer": "5℃以下",
+      "id": 43
+    },
+    {
+      "question": "コンベアを修理する際に取るべき正しい行動は何ですか？",
+      "options": [
+        "電源を切り、「修理中」の札を掛ける",
+        "迅速に終わらせるために電源を入れたままにする",
+        "何かあった場合に同僚に電源を切るように頼む",
+        "見える部分だけを掃除する"
+      ],
+      "answer": "電源を切り、「修理中」の札を掛ける",
+      "id": 44
+    },
+    {
+      "question": "2023年3月9日現在、日本でアレルギー表示が義務付けられている「特定原材料」は次のうちどれですか？",
+      "options": [
+        "えび、かに、くるみ、小麦、そば、卵、乳、落花生",
+        "牛肉、ごま、さけ、大豆",
+        "バナナ、りんご、もも、キウイフルーツ",
+        "いか、あわび、まつたけ"
+      ],
+      "answer": "えび、かに、くるみ、小麦、そば、卵、乳、落花生",
+      "id": 45
+    },
+    {
+      "question": "労働災害で倒れている人を発見した場合、正しい行動はどれですか？",
+      "options": [
+        "すぐに被災者を引き離す",
+        "二次災害を防ぐために、まず周囲の状況を確認する",
+        "何もしないで責任者を探す",
+        "報告のために状況を記録する"
+      ],
+      "answer": "二次災害を防ぐために、まず周囲の状況を確認する",
+      "id": 46
+    },
+    {
+      "question": "ホチキスやクリップが付いた書類を作業エリアに持ち込んではいけない理由は何ですか？",
+      "options": [
+        "他の書類を汚す可能性があるから",
+        "ホチキスの針やクリップが折れて異物として食品に混入する可能性があるから",
+        "プロフェッショナルに見えないから",
+        "場所を取るから"
+      ],
+      "answer": "ホチキスの針やクリップが折れて異物として食品に混入する可能性があるから",
+      "id": 47
+    },
+    {
+      "question": "魚の「ヒスタミン食中毒」を防ぐための正しい方法はどうすればよいですか？",
+      "options": [
+        "魚を非常に高温で調理する",
+        "漁獲後すぐに低温で保管する（冷蔵または冷凍）",
+        "魚を塩水で洗う",
+        "調理中に酢を加える"
+      ],
+      "answer": "漁獲後すぐに低温で保管する（冷蔵または冷凍）",
+      "id": 48
+    },
+    {
+      "question": "安全標識「頭上注意」が意味するものは何ですか？",
+      "options": [
+        "滑りやすい床に注意",
+        "頭をぶつける危険に注意",
+        "ヘルメットを着用せよ",
+        "高電圧エリア"
+      ],
+      "answer": "頭をぶつける危険に注意",
+      "id": 49
+    },
+    {
+      "question": "機械における「フェールセーフ」の適用例は次のうちどれですか？",
+      "options": [
+        "一人でしか操作できない機械",
+        "部品の故障や製品の詰まりが発生した場合に自動的に停止する機械",
+        "手が中に入らないようにカバーが付いている機械",
+        "電源を入れると警報が鳴る機械"
+      ],
+      "answer": "部品の故障や製品の詰まりが発生した場合に自動的に停止する機械",
+      "id": 50
+    }
+  ]
+}

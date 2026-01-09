@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Soal SSW Pengolahan Makanan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="language-selector">
+            <button id="lang-in" class="active">Bahasa Indonesia</button>
+            <button id="lang-jp">日本語 (Japanese)</button>
+        </div>
+        <div id="quiz-wrapper">
+            <h1 id="quiz-title">Latihan Soal SSW Pengolahan Makanan</h1>
+            <div id="quiz-container" class="hide">
+                <div id="question-container">
+                    <p id="question-number"></p>
+                    <p id="question-text"></p>
+                </div>
+                <div id="options-container" class="options-grid">
+                    <!-- Opsi jawaban akan dimuat di sini oleh JavaScript -->
+                </div>
+                <div class="navigation-buttons">
+                    <button id="next-btn">Selanjutnya</button>
+                </div>
+            </div>
+            <div id="result-container" class="hide">
+                <h2 id="result-title">Hasil Kuis</h2>
+                <p id="score-text"></p>
+                <p id="feedback-text"></p>
+                <button id="restart-btn">Coba Lagi</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
