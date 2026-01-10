@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,36 +8,146 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
     <div class="container">
-        <div class="language-selector">
-            <button id="lang-in" class="active">Bahasa Indonesia</button>
-            <button id="lang-jp">日本語 (Japanese)</button>
+        <div id="setup-container">
+            <div class="quiz-header">
+                <h1 id="setup-title">Selamat Datang di Kuis SSW</h1>
+                <p class="quiz-subtitle">Silakan pilih bahasa dan jumlah soal untuk memulai.</p>
+            </div>
+
+            <div class="setup-group">
+                <label for="lang-select">Pilih Bahasa:</label>
+                <div class="language-selector">
+                    <button id="setup-lang-in" class="active lang-btn" data-lang="in">
+                        <i class="fas fa-flag"></i>
+                        Bahasa Indonesia
+                    </button>
+                    <button id="setup-lang-jp" class="lang-btn" data-lang="jp">
+                        <i class="fas fa-flag"></i>
+                        日本語 (Japanese)
+                    </button>
+                </div>
+            </div>
+
+            <div class="setup-group">
+                <label for="question-count">Jumlah Soal (Maks: 50):</label>
+                <input type="number" id="question-count" value="10" min="5" max="50" step="5">
+            </div>
+
+            <button id="start-quiz-btn">
+                <i class="fas fa-play"></i>
+                Mulai Kuis
+            </button>
         </div>
-        <div id="quiz-wrapper">
-            <h1 id="quiz-title">Latihan Soal SSW Pengolahan Makanan</h1>
+
+        <div class="header hide">
+            <div class="language-selector">
+                <button id="lang-in" class="active">
+                    <i class="fas fa-flag"></i>
+                    Bahasa Indonesia
+                </button>
+                <button id="lang-jp">
+                    <i class="fas fa-flag"></i>
+                    日本語 (Japanese)
+                </button>
+            </div>
+
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progress-fill"></div>
+                </div>
+                <span class="progress-text" id="progress-text">0/10</span>
+            </div>
+        </div>
+
+        <div id="quiz-wrapper" class="hide">
+            <div class="quiz-header">
+                <h1 id="quiz-title">Latihan Soal SSW Pengolahan Makanan</h1>
+                <p class="quiz-subtitle">Uji pengetahuan Anda tentang pengolahan makanan untuk SSW</p>
+            </div>
+
             <div id="quiz-container" class="hide">
                 <div id="question-container">
-                    <p id="question-number"></p>
-                    <p id="question-text"></p>
+                    <div class="question-number-badge">
+                        <span id="question-number">Pertanyaan 1</span>
+                    </div>
+                    <p id="question-text">Apa yang dimaksud dengan teknik blansir dalam pengolahan makanan?</p>
                 </div>
+
                 <div id="options-container" class="options-grid">
                     <!-- Opsi jawaban akan dimuat di sini oleh JavaScript -->
                 </div>
+
                 <div class="navigation-buttons">
-                    <button id="next-btn">Selanjutnya</button>
+                    <button id="hint-btn">
+                        <i class="fas fa-lightbulb"></i>
+                        Petunjuk
+                    </button>
+                    <button id="next-btn">
+                        Selanjutnya
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
                 </div>
             </div>
+
             <div id="result-container" class="hide">
-                <h2 id="result-title">Hasil Kuis</h2>
-                <p id="score-text"></p>
-                <p id="feedback-text"></p>
-                <button id="restart-btn">Coba Lagi</button>
+                <div class="result-header">
+                    <div class="trophy-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h2 id="result-title">Hasil Kuis Anda</h2>
+                </div>
+
+                <div class="score-circle">
+                    <div class="circle-bg">
+                        <div class="circle-progress" id="circle-progress"></div>
+                    </div>
+                    <div class="score-content">
+                        <span id="score-percent">85%</span>
+                        <span id="score-text">Skor: 17/20</span>
+                    </div>
+                </div>
+
+                <p id="feedback-text">Selamat! Pengetahuan Anda tentang pengolahan makanan sangat baik. Teruslah
+                    berlatih untuk meningkatkan pemahaman Anda.</p>
+
+                <div class="result-buttons">
+                    <button id="review-btn">
+                        <i class="fas fa-redo"></i>
+                        Tinjau Jawaban
+                    </button>
+                    <button id="restart-btn">
+                        <i class="fas fa-play-circle"></i>
+                        Coba Lagi
+                    </button>
+                </div>
+            </div>
+
+            <div id="review-container" class="hide">
+                <h2 id="review-title">Tinjau Jawaban Anda</h2>
+                <div id="review-content"></div>
+                <div class="result-buttons">
+                    <button id="back-to-results-btn">
+                        <i class="fas fa-arrow-left"></i>
+                        Kembali ke Hasil
+                    </button>
+                </div>
             </div>
         </div>
+
+        <div class="footer">
+            <p>Kuis SSW Pengolahan Makanan &copy; 2023 | Latihan untuk meningkatkan pengetahuan</p>
+        </div>
     </div>
+
     <script src="script.js"></script>
 </body>
+
 </html>

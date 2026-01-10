@@ -1,25 +1,42 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const langInBtn = document.getElementById('lang-in');
-    const langJpBtn = document.getElementById('lang-jp');
+    // Setup Elements
+    const setupContainer = document.getElementById('setup-container');
+    const setupLangInBtn = document.getElementById('setup-lang-in');
+    const setupLangJpBtn = document.getElementById('setup-lang-jp');
+    const questionCountInput = document.getElementById('question-count');
+    const startQuizBtn = document.getElementById('start-quiz-btn');
+
+    // Main Quiz Elements
+    const header = document.querySelector('.header');
+    const headerLanguageSelector = header.querySelector('.language-selector');
+    const langInBtnHeader = document.getElementById('lang-in'); 
+    const langJpBtnHeader = document.getElementById('lang-jp'); 
     const quizWrapper = document.getElementById('quiz-wrapper');
     const quizContainer = document.getElementById('quiz-container');
     const resultContainer = document.getElementById('result-container');
+    const reviewContainer = document.getElementById('review-container');
+    const reviewContent = document.getElementById('review-content');
+    
+    // Buttons
+    const reviewBtn = document.getElementById('review-btn');
+    const backToResultsBtn = document.getElementById('back-to-results-btn');
+    const nextBtn = document.getElementById('next-btn');
+    const restartBtn = document.getElementById('restart-btn');
+
+    // Display Elements
     const questionNumberEl = document.getElementById('question-number');
     const questionTextEl = document.getElementById('question-text');
     const optionsContainer = document.getElementById('options-container');
-    const nextBtn = document.getElementById('next-btn');
-    const restartBtn = document.getElementById('restart-btn');
     const scoreTextEl = document.getElementById('score-text');
     const feedbackTextEl = document.getElementById('feedback-text');
     const quizTitleEl = document.getElementById('quiz-title');
-
 
     let allQuestions = {};
     let currentQuestions = [];
     let currentQuestionIndex = 0;
     let score = 0;
-    let currentLanguage = 'in';
     let userAnswers = [];
+    let selectedLang = 'in';
 
     const langConfig = {
         in: {
@@ -29,6 +46,8 @@ document.addEventListener('DOMContentLoaded', () => {
             resultsButton: "Lihat Hasil",
             restartButton: "Coba Lagi",
             resultTitle: "Hasil Kuis",
+            reviewTitle: "Tinjau Jawaban Anda",
+            backButton: "Kembali ke Hasil",
             scoreMessage: (score, total) => `Anda benar ${score} dari ${total} soal.`,
             feedback: {
                 good: "Luar biasa! Pemahaman Anda sangat baik.",
@@ -43,6 +62,8 @@ document.addEventListener('DOMContentLoaded', () => {
             resultsButton: "結果を見る",
             restartButton: "もう一度試す",
             resultTitle: "クイズの結果",
+            reviewTitle: "あなたの答えを確認する",
+            backButton: "結果に戻る",
             scoreMessage: (score, total) => `${total}問中${score}問正解しました。`,
             feedback: {
                 good: "素晴らしい！あなたの理解は非常に良いです。",
@@ -52,53 +73,141 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
+    // --- UI Update Functions ---
+    function updateProgressBar(current, total) {
+        const progressFill = document.getElementById('progress-fill');
+        const progressText = document.getElementById('progress-text');
+        const percentage = total > 0 ? (current / total) * 100 : 0;
+        progressFill.style.width = `${percentage}%`;
+        progressText.textContent = `${current}/${total}`;
+    }
+
+    function updateScoreCircle(score, total) {
+        const circleProgress = document.getElementById('circle-progress');
+        const scorePercent = document.getElementById('score-percent');
+        const percentage = total > 0 ? (score / total) * 100 : 0;
+        const degrees = (percentage / 100) * 360;
+        circleProgress.style.background = `conic-gradient(var(--primary-color) ${degrees}deg, var(--border-color) ${degrees}deg)`;
+        scorePercent.textContent = `${Math.round(percentage)}%`;
+    }
+
+    // --- Data Fetching ---
     fetch('questions.json')
         .then(response => {
             if (!response.ok) {
-                throw new Error('Network response was not ok ' + response.statusText);
+                throw new Error('Network response was not ok');
             }
             return response.json();
         })
         .then(data => {
             allQuestions = data;
-            startQuiz('in');
+            // Enable the start button once data is loaded
+            startQuizBtn.disabled = false;
+            startQuizBtn.textContent = 'Mulai Kuis';
         })
         .catch(error => {
             console.error('Error fetching questions:', error);
-            questionTextEl.textContent = 'Gagal memuat soal. Silakan periksa file questions.json dan coba lagi.';
+            setupContainer.innerHTML = '<h1>Gagal memuat soal.</h1><p>Silakan periksa file questions.json dan coba lagi.</p>';
         });
 
-    langInBtn.addEventListener('click', () => switchLanguage('in'));
-    langJpBtn.addEventListener('click', () => switchLanguage('jp'));
-    nextBtn.addEventListener('click', handleNextButton);
-    restartBtn.addEventListener('click', () => startQuiz(currentLanguage));
+    // --- Event Listeners ---
+    setupLangInBtn.addEventListener('click', () => setSetupLanguage('in'));
+    setupLangJpBtn.addEventListener('click', () => setSetupLanguage('jp'));
+    startQuizBtn.addEventListener('click', handleStartQuiz);
     
-    function switchLanguage(lang) {
-        currentLanguage = lang;
-        langInBtn.classList.toggle('active', lang === 'in');
-        langJpBtn.classList.toggle('active', lang === 'jp');
-        startQuiz(lang);
+    nextBtn.addEventListener('click', handleNextButton);
+    restartBtn.addEventListener('click', () => {
+        quizWrapper.classList.add('hide');
+        header.classList.add('hide');
+        resultContainer.classList.add('hide');
+        reviewContainer.classList.add('hide');
+        setupContainer.classList.remove('hide');
+        
+        // TAMPILKAN KEMBALI language selector di header
+        headerLanguageSelector.classList.remove('hide');
+    });
+
+    reviewBtn.addEventListener('click', showReview);
+    backToResultsBtn.addEventListener('click', () => {
+        reviewContainer.classList.add('hide');
+        resultContainer.classList.remove('hide');
+    });
+
+    // --- Setup Flow ---
+    function setSetupLanguage(lang) {
+        selectedLang = lang;
+        setupLangInBtn.classList.toggle('active', lang === 'in');
+        setupLangJpBtn.classList.toggle('active', lang === 'jp');
     }
 
-    function startQuiz(lang) {
-        currentLanguage = lang;
-        currentQuestions = allQuestions[lang];
+    function handleStartQuiz() {
+        const numQuestions = parseInt(questionCountInput.value, 10);
+        if (numQuestions <= 0 || !allQuestions[selectedLang]) {
+            return;
+        }
+
+        setupContainer.classList.add('hide');
+        header.classList.remove('hide');
+        
+        // SEMBUNYIKAN language selector di header
+        headerLanguageSelector.classList.add('hide');
+        
+        quizWrapper.classList.remove('hide');
+        quizContainer.classList.remove('hide');
+        resultContainer.classList.add('hide');
+        reviewContainer.classList.add('hide');
+
+        startQuiz(selectedLang, numQuestions);
+    }
+    
+    // --- Quiz Flow ---
+    function startQuiz(lang, numQuestions) {
+        selectedLang = lang;
+        
+        // Shuffle questions and take the requested number
+        if (allQuestions[lang]) {
+            currentQuestions = allQuestions[lang].sort(() => 0.5 - Math.random()).slice(0, numQuestions);
+        } else {
+            currentQuestions = [];
+            console.error(`Tidak ada soal untuk bahasa: ${lang}`);
+        }
+        
         currentQuestionIndex = 0;
         score = 0;
         userAnswers = [];
         
-        quizTitleEl.textContent = langConfig[lang].title;
-        restartBtn.textContent = langConfig[lang].restartButton;
-        resultContainer.classList.add('hide');
-        quizContainer.classList.remove('hide');
+        // Update UI language untuk header (hanya untuk konsistensi)
+        if (lang === 'in') {
+            langInBtnHeader.classList.add('active');
+            langJpBtnHeader.classList.remove('active');
+        } else {
+            langJpBtnHeader.classList.add('active');
+            langInBtnHeader.classList.remove('active');
+        }
         
+        // Terjemahkan teks UI
+        const config = langConfig[lang];
+        quizTitleEl.textContent = config.title;
+        restartBtn.innerHTML = `<i class="fas fa-play-circle"></i> ${config.restartButton}`;
+        reviewBtn.innerHTML = `<i class="fas fa-redo"></i> ${config.reviewTitle}`;
+        document.getElementById('review-title').textContent = config.reviewTitle;
+        backToResultsBtn.innerHTML = `<i class="fas fa-arrow-left"></i> ${config.backButton}`;
+        
+        updateProgressBar(0, currentQuestions.length);
         loadQuestion();
     }
 
     function loadQuestion() {
+        if (currentQuestions.length === 0) {
+            questionTextEl.textContent = 'Soal tidak ditemukan untuk bahasa ini.';
+            optionsContainer.innerHTML = '';
+            nextBtn.classList.add('hide');
+            return;
+        }
         resetState();
+        updateProgressBar(currentQuestionIndex + 1, currentQuestions.length);
         const question = currentQuestions[currentQuestionIndex];
-        questionNumberEl.textContent = `${langConfig[currentLanguage].questionLabel} ${currentQuestionIndex + 1}/${currentQuestions.length}`;
+        questionNumberEl.textContent = `${langConfig[selectedLang].questionLabel} ${currentQuestionIndex + 1}/${currentQuestions.length}`;
         questionTextEl.textContent = question.question;
 
         question.options.forEach(option => {
@@ -110,14 +219,12 @@ document.addEventListener('DOMContentLoaded', () => {
         });
         
         nextBtn.textContent = (currentQuestionIndex < currentQuestions.length - 1)
-            ? langConfig[currentLanguage].nextButton
-            : langConfig[currentLanguage].resultsButton;
+            ? langConfig[selectedLang].nextButton
+            : langConfig[selectedLang].resultsButton;
     }
     
     function resetState() {
-        while (optionsContainer.firstChild) {
-            optionsContainer.removeChild(optionsContainer.firstChild);
-        }
+        optionsContainer.innerHTML = '';
         nextBtn.classList.add('hide');
     }
 
@@ -155,19 +262,48 @@ document.addEventListener('DOMContentLoaded', () => {
         resultContainer.classList.remove('hide');
         
         const total = currentQuestions.length;
-        const percentage = (score / total);
+        updateScoreCircle(score, total);
+
+        const percentage = total > 0 ? (score / total) : 0;
         let feedback;
 
         if (percentage >= 0.8) {
-            feedback = langConfig[currentLanguage].feedback.good;
+            feedback = langConfig[selectedLang].feedback.good;
         } else if (percentage >= 0.5) {
-            feedback = langConfig[currentLanguage].feedback.medium;
+            feedback = langConfig[selectedLang].feedback.medium;
         } else {
-            feedback = langConfig[currentLanguage].feedback.bad;
+            feedback = langConfig[selectedLang].feedback.bad;
         }
         
-        document.getElementById('result-title').textContent = langConfig[currentLanguage].resultTitle;
-        scoreTextEl.textContent = langConfig[currentLanguage].scoreMessage(score, total);
+        document.getElementById('result-title').textContent = langConfig[selectedLang].resultTitle;
+        scoreTextEl.textContent = langConfig[selectedLang].scoreMessage(score, total);
         feedbackTextEl.textContent = feedback;
     }
+
+    function showReview() {
+        resultContainer.classList.add('hide');
+        reviewContainer.classList.remove('hide');
+        reviewContent.innerHTML = '';
+
+        currentQuestions.forEach((question, index) => {
+            const userAnswer = userAnswers[index];
+            const isCorrect = userAnswer === question.answer;
+
+            const reviewItem = document.createElement('div');
+            reviewItem.classList.add('review-item');
+
+            reviewItem.innerHTML = `
+                <p><strong>${index + 1}. ${question.question}</strong></p>
+                <div class="user-answer ${isCorrect ? 'correct' : 'incorrect'}">
+                    Jawaban Anda: ${userAnswer || 'Tidak dijawab'}
+                </div>
+                ${!isCorrect ? `<div class="correct-answer">Jawaban Benar: ${question.answer}</div>` : ''}
+            `;
+            reviewContent.appendChild(reviewItem);
+        });
+    }
+
+    // Initial state
+    startQuizBtn.disabled = true;
+    startQuizBtn.textContent = 'Memuat Soal...';
 });

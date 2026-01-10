@@ -550,6 +550,556 @@
       ],
       "answer": "Mesin yang otomatis berhenti jika ada suku cadang yang rusak atau produk tersumbat",
       "id": 50
+    },
+    {
+      "question": "Apa yang dimaksud dengan zona bahaya suhu (temperature danger zone) dalam keamanan pangan?",
+      "options": [
+        "0°C - 10°C",
+        "5°C - 60°C",
+        "10°C - 63°C",
+        "20°C - 70°C"
+      ],
+      "answer": "5°C - 60°C",
+      "id": 51
+    },
+    {
+      "question": "Berapa lama makanan bisa berada di zona bahaya suhu sebelum berisiko tinggi berkembangnya bakteri?",
+      "options": [
+        "30 menit",
+        "1 jam",
+        "2 jam",
+        "4 jam"
+      ],
+      "answer": "2 jam",
+      "id": 52
+    },
+    {
+      "question": "Apa warna pakaian kerja yang umumnya digunakan di area produksi makanan?",
+      "options": [
+        "Hitam",
+        "Biru atau putih",
+        "Merah",
+        "Hijau"
+      ],
+      "answer": "Biru atau putih",
+      "id": 53
+    },
+    {
+      "question": "Mengapa perhiasan seperti cincin dan anting dilarang di area produksi?",
+      "options": [
+        "Dapat menyebabkan alergi",
+        "Dapat terjatuh ke dalam makanan",
+        "Dapat menghambat pekerjaan",
+        "Semua jawaban benar"
+      ],
+      "answer": "Semua jawaban benar",
+      "id": 54
+    },
+    {
+      "question": "Apa yang harus dilakukan jika terjadi tumpahan minyak di lantai area kerja?",
+      "options": [
+        "Dibiarkan saja karena akan mengering",
+        "Segera dibersihkan dan diberi tanda",
+        "Dilaporkan besok pagi",
+        "Ditutupi dengan kertas"
+      ],
+      "answer": "Segera dibersihkan dan diberi tanda",
+      "id": 55
+    },
+    {
+      "question": "Apa tujuan penggunaan sarung tangan sekali pakai dalam pengolahan makanan?",
+      "options": [
+        "Agar tangan tidak kotor",
+        "Mencegah kontaminasi silang",
+        "Supaya terlihat profesional",
+        "Menghangatkan tangan"
+      ],
+      "answer": "Mencegah kontaminasi silang",
+      "id": 56
+    },
+    {
+      "question": "Kapan sarung tangan sekali pakai harus diganti?",
+      "options": [
+        "Setiap 1 jam",
+        "Setelah menyentuh wajah atau rambut",
+        "Setelah menyentuh permukaan kotor",
+        "Semua jawaban benar"
+      ],
+      "answer": "Semua jawaban benar",
+      "id": 57
+    },
+    {
+      "question": "Apa yang dimaksud dengan 'batch number' pada produk makanan?",
+      "options": [
+        "Nomor telepon produsen",
+        "Kode yang menunjukkan kelompok produksi tertentu",
+        "Berat bersih produk",
+        "Kode kadaluarsa"
+      ],
+      "answer": "Kode yang menunjukkan kelompok produksi tertentu",
+      "id": 58
+    },
+    {
+      "question": "Mengapa batch number penting dalam keamanan pangan?",
+      "options": [
+        "Untuk memudahkan penjualan",
+        "Untuk menarik konsumen",
+        "Untuk penarikan produk jika terjadi masalah",
+        "Untuk menaikkan harga"
+      ],
+      "answer": "Untuk penarikan produk jika terjadi masalah",
+      "id": 59
+    },
+    {
+      "question": "Apa yang harus dilakukan sebelum menggunakan mesin baru?",
+      "options": [
+        "Mencoba langsung",
+        "Membaca manual dan mengikuti pelatihan",
+        "Bertanya pada teman",
+        "Memperkirakannya sendiri"
+      ],
+      "answer": "Membaca manual dan mengikuti pelatihan",
+      "id": 60
+    },
+    {
+      "question": "Apa fungsi dari alat pelindung diri (APD) sepatu safety?",
+      "options": [
+        "Melindungi kaki dari benturan benda berat",
+        "Mencegah tergelincir di lantai licin",
+        "Melindungi dari cairan kimia",
+        "Semua jawaban benar"
+      ],
+      "answer": "Semua jawaban benar",
+      "id": 61
+    },
+    {
+      "question": "Berapa frekuensi pemeriksaan kesehatan karyawan yang disarankan?",
+      "options": [
+        "Setiap bulan",
+        "Setiap 6 bulan",
+        "Setiap tahun",
+        "Hanya saat sakit"
+      ],
+      "answer": "Setiap tahun",
+      "id": 62
+    },
+    {
+      "question": "Apa yang dimaksud dengan 'sterilisasi'?",
+      "options": [
+        "Membersihkan dengan air",
+        "Menghilangkan semua mikroorganisme",
+        "Mendinginkan makanan",
+        "Membuang bagian yang rusak"
+      ],
+      "answer": "Menghilangkan semua mikroorganisme",
+      "id": 63
+    },
+    {
+      "question": "Metode sterilisasi yang umum digunakan di industri makanan adalah?",
+      "options": [
+        "Pemanasan suhu tinggi (autoclave)",
+        "Pendinginan ekstrem",
+        "Pencucian dengan sabun",
+        "Penjemuran di matahari"
+      ],
+      "answer": "Pemanasan suhu tinggi (autoclave)",
+      "id": 64
+    },
+    {
+      "question": "Apa perbedaan antara 'disinfeksi' dan 'sterilisasi'?",
+      "options": [
+        "Disinfeksi lebih kuat dari sterilisasi",
+        "Sterilisasi menghilangkan semua mikroba, disinfeksi hanya mengurangi",
+        "Tidak ada perbedaan",
+        "Disinfeksi untuk makanan, sterilisasi untuk alat"
+      ],
+      "answer": "Sterilisasi menghilangkan semua mikroba, disinfeksi hanya mengurangi",
+      "id": 65
+    },
+    {
+      "question": "Zona warna apa yang digunakan untuk menandai area berbahaya?",
+      "options": [
+        "Hijau",
+        "Kuning",
+        "Merah",
+        "Biru"
+      ],
+      "answer": "Merah",
+      "id": 66
+    },
+    {
+      "question": "Apa arti tanda garis kuning di lantai pabrik?",
+      "options": [
+        "Area istirahat",
+        "Batas area kerja",
+        "Jalur evakuasi",
+        "Area penyimpanan"
+      ],
+      "answer": "Batas area kerja",
+      "id": 67
+    },
+    {
+      "question": "Berapa suhu yang tepat untuk menyimpan sayuran segar?",
+      "options": [
+        "0°C - 4°C",
+        "5°C - 10°C",
+        "10°C - 15°C",
+        "Suhu ruangan"
+      ],
+      "answer": "5°C - 10°C",
+      "id": 68
+    },
+    {
+      "question": "Apa yang harus dilakukan dengan makanan yang telah jatuh ke lantai?",
+      "options": [
+        "Dicuci dan digunakan kembali",
+        "Dibuang",
+        "Diberikan pada hewan",
+        "Dimasak lagi"
+      ],
+      "answer": "Dibuang",
+      "id": 69
+    },
+    {
+      "question": "Berapa persen alkohol yang efektif dalam hand sanitizer?",
+      "options": [
+        "30% - 40%",
+        "40% - 50%",
+        "60% - 70%",
+        "80% - 90%"
+      ],
+      "answer": "60% - 70%",
+      "id": 70
+    },
+    {
+      "question": "Apa yang dimaksud dengan 'food defense'?",
+      "options": [
+        "Pertahanan terhadap serangan fisik",
+        "Perlindungan makanan dari kontaminasi sengaja",
+        "Pertahanan harga makanan",
+        "Perlindungan resep rahasia"
+      ],
+      "answer": "Perlindungan makanan dari kontaminasi sengaja",
+      "id": 71
+    },
+    {
+      "question": "Siapa yang bertanggung jawab atas keamanan pangan di perusahaan?",
+      "options": [
+        "Hanya manajer",
+        "Hanya karyawan produksi",
+        "Semua orang di perusahaan",
+        "Hanya bagian QC"
+      ],
+      "answer": "Semua orang di perusahaan",
+      "id": 72
+    },
+    {
+      "question": "Apa yang harus dilakukan jika menemukan serangga di area produksi?",
+      "options": [
+        "Dibiarkan karena kecil",
+        "Dibunuh dan dibuang",
+        "Dilaporkan untuk tindakan pengendalian",
+        "Disimpan sebagai bukti"
+      ],
+      "answer": "Dilaporkan untuk tindakan pengendalian",
+      "id": 73
+    },
+    {
+      "question": "Berapa kali seharusnya tangan digosok saat mencuci tangan?",
+      "options": [
+        "5-10 detik",
+        "15-20 detik",
+        "30-40 detik",
+        "1 menit"
+      ],
+      "answer": "15-20 detik",
+      "id": 74
+    },
+    {
+      "question": "Apa fungsi dari hairnet atau penutup kepala?",
+      "options": [
+        "Agar rapi",
+        "Mencegah rambut rontok ke makanan",
+        "Melindungi dari debu",
+        "Semua jawaban benar"
+      ],
+      "answer": "Semua jawaban benar",
+      "id": 75
+    },
+    {
+      "question": "Kapan sepatu kerja harus diganti?",
+      "options": [
+        "Setiap bulan",
+        "Ketika sudah aus atau rusak",
+        "Setiap tahun",
+        "Tidak perlu diganti"
+      ],
+      "answer": "Ketika sudah aus atau rusak",
+      "id": 76
+    },
+    {
+      "question": "Apa yang dimaksud dengan 'corrective action' dalam HACCP?",
+      "options": [
+        "Tindakan pencegahan",
+        "Tindakan perbaikan saat terjadi penyimpangan",
+        "Tindakan pelatihan",
+        "Tindakan pembersihan"
+      ],
+      "answer": "Tindakan perbaikan saat terjadi penyimpangan",
+      "id": 77
+    },
+    {
+      "question": "Berapa suhu minimal untuk pasteurisasi susu?",
+      "options": [
+        "60°C selama 30 menit",
+        "72°C selama 15 detik",
+        "85°C selama 5 menit",
+        "100°C selama 1 menit"
+      ],
+      "answer": "72°C selama 15 detik",
+      "id": 78
+    },
+    {
+      "question": "Apa yang harus dilakukan dengan alat makan yang retak atau pecah?",
+      "options": [
+        "Tetap digunakan",
+        "Dibuang",
+        "Disimpan untuk keperluan lain",
+        "Diberikan pada karyawan"
+      ],
+      "answer": "Dibuang",
+      "id": 79
+    },
+    {
+      "question": "Berapa kali sehari area kerja harus dibersihkan?",
+      "options": [
+        "1 kali (akhir shift)",
+        "2 kali (sebelum dan sesudah kerja)",
+        "3 kali (pagi, siang, sore)",
+        "Setiap saat diperlukan"
+      ],
+      "answer": "Setiap saat diperlukan",
+      "id": 80
+    },
+    {
+      "question": "Apa yang dimaksud dengan 'shelf life'?",
+      "options": [
+        "Umur simpan produk",
+        "Panjang rak di supermarket",
+        "Ketinggian penyimpanan",
+        "Waktu produksi"
+      ],
+      "answer": "Umur simpan produk",
+      "id": 81
+    },
+    {
+      "question": "Faktor apa yang mempengaruhi shelf life produk?",
+      "options": [
+        "Suhu penyimpanan",
+        "Cahaya",
+        "Kelembaban",
+        "Semua jawaban benar"
+      ],
+      "answer": "Semua jawaban benar",
+      "id": 82
+    },
+    {
+      "question": "Apa yang harus dilakukan dengan sisa makanan dari pelanggan?",
+      "options": [
+        "Dikembalikan ke dapur",
+        "Dibuang",
+        "Diberikan pada karyawan",
+        "Disimpan untuk besok"
+      ],
+      "answer": "Dibuang",
+      "id": 83
+    },
+    {
+      "question": "Berapa suhu yang aman untuk menyimpan telur segar?",
+      "options": [
+        "Suhu ruang",
+        "10°C - 15°C",
+        "5°C - 7°C",
+        "0°C - 2°C"
+      ],
+      "answer": "5°C - 7°C",
+      "id": 84
+    },
+    {
+      "question": "Apa risiko menyimpan telur di pintu kulkas?",
+      "options": [
+        "Suhu tidak stabil",
+        "Terlalu dingin",
+        "Terlalu panas",
+        "Tidak ada risiko"
+      ],
+      "answer": "Suhu tidak stabil",
+      "id": 85
+    },
+    {
+      "question": "Berapa lama telur mentah bisa disimpan di kulkas?",
+      "options": [
+        "1 minggu",
+        "3-4 minggu",
+        "2 bulan",
+        "3 bulan"
+      ],
+      "answer": "3-4 minggu",
+      "id": 86
+    },
+    {
+      "question": "Apa yang harus dilakukan jika terjadi pemadaman listrik di gudang pendingin?",
+      "options": [
+        "Tidak melakukan apa-apa",
+        "Memindahkan produk ke tempat lain",
+        "Memantau suhu dan melaporkan",
+        "Membuka pintu untuk ventilasi"
+      ],
+      "answer": "Memantau suhu dan melaporkan",
+      "id": 87
+    },
+    {
+      "question": "Berapa lama produk beku bisa disimpan di freezer?",
+      "options": [
+        "1 bulan",
+        "3-6 bulan",
+        "1 tahun",
+        "Tergantung jenis produk"
+      ],
+      "answer": "Tergantung jenis produk",
+      "id": 88
+    },
+    {
+      "question": "Apa tanda-tanda daging yang sudah busuk?",
+      "options": [
+        "Warna berubah menjadi coklat",
+        "Bau tidak sedap",
+        "Tekstur berlendir",
+        "Semua jawaban benar"
+      ],
+      "answer": "Semua jawaban benar",
+      "id": 89
+    },
+    {
+      "question": "Berapa suhu internal minimal untuk memasak daging giling?",
+      "options": [
+        "63°C",
+        "71°C",
+        "74°C",
+        "82°C"
+      ],
+      "answer": "71°C",
+      "id": 90
+    },
+    {
+      "question": "Apa yang dimaksud dengan 'blanching'?",
+      "options": [
+        "Memasak dengan tekanan tinggi",
+        "Perendaman singkat dalam air mendidih",
+        "Pembekuan cepat",
+        "Pengeringan"
+      ],
+      "answer": "Perendaman singkat dalam air mendidih",
+      "id": 91
+    },
+    {
+      "question": "Mengapa blanching dilakukan sebelum pembekuan sayuran?",
+      "options": [
+        "Mematikan enzim perusak",
+        "Memperbaiki warna",
+        "Mengurangi volume",
+        "Semua jawaban benar"
+      ],
+      "answer": "Semua jawaban benar",
+      "id": 92
+    },
+    {
+      "question": "Apa yang harus dilakukan dengan minyak goreng yang sudah dipakai berkali-kali?",
+      "options": [
+        "Ditambah minyak baru",
+        "Disaring dan digunakan lagi",
+        "Diganti secara berkala",
+        "Dijual kembali"
+      ],
+      "answer": "Diganti secara berkala",
+      "id": 93
+    },
+    {
+      "question": "Berapa kali maksimal minyak goreng bisa digunakan?",
+      "options": [
+        "2-3 kali",
+        "5-6 kali",
+        "10 kali",
+        "Tergantung jenis makanan"
+      ],
+      "answer": "Tergantung jenis makanan",
+      "id": 94
+    },
+    {
+      "question": "Apa tanda minyak goreng harus diganti?",
+      "options": [
+        "Warna gelap",
+        "Bau tengik",
+        "Banyak buih",
+        "Semua jawaban benar"
+      ],
+      "answer": "Semua jawaban benar",
+      "id": 95
+    },
+    {
+      "question": "Apa yang dimaksud dengan 'vacuum packing'?",
+      "options": [
+        "Pengemasan dengan udara",
+        "Pengemasan hampa udara",
+        "Pengemasan tekanan tinggi",
+        "Pengemasan dengan nitrogen"
+      ],
+      "answer": "Pengemasan hampa udara",
+      "id": 96
+    },
+    {
+      "question": "Keuntungan vacuum packing adalah?",
+      "options": [
+        "Memperpanjang shelf life",
+        "Mencegah oksidasi",
+        "Mencegah pertumbuhan bakteri aerob",
+        "Semua jawaban benar"
+      ],
+      "answer": "Semua jawaban benar",
+      "id": 97
+    },
+    {
+      "question": "Berapa suhu penyimpanan untuk produk vacuum packed?",
+      "options": [
+        "Suhu ruang",
+        "Di bawah 5°C",
+        "Di bawah 0°C",
+        "Tergantung produk"
+      ],
+      "answer": "Tergantung produk",
+      "id": 98
+    },
+    {
+      "question": "Apa risiko jika vacuum pack rusak atau menggembung?",
+      "options": [
+        "Produk masih aman",
+        "Terjadi kontaminasi bakteri",
+        "Hanya masalah estetika",
+        "Tidak ada risiko"
+      ],
+      "answer": "Terjadi kontaminasi bakteri",
+      "id": 99
+    },
+    {
+      "question": "Berapa pH yang aman untuk makanan kaleng?",
+      "options": [
+        "pH di atas 4.6",
+        "pH di bawah 4.6",
+        "pH netral (7)",
+        "Tidak ada batasan pH"
+      ],
+      "answer": "pH di bawah 4.6",
+      "id": 100
     }
   ],
   "jp": [
@@ -1102,6 +1652,556 @@
       ],
       "answer": "部品の故障や製品の詰まりが発生した場合に自動的に停止する機械",
       "id": 50
-    }
+    },
+    {
+    "question": "食品安全（しょくひん あんぜん）における温度（おんど）危険帯（きけんたい）（Temperature Danger Zone）とは何（なん）を指（さ）しますか？",
+    "options": [
+      "0°C - 10°C",
+      "5°C - 60°C",
+      "10°C - 63°C",
+      "20°C - 70°C"
+    ],
+    "answer": "5°C - 60°C",
+    "id": 51
+  },
+  {
+    "question": "食品（しょくひん）が温度（おんど）危険帯（きけんたい）に置（お）かれると、細菌（さいきん）が急増（きゅうぞう）する危険（きけん）があるのは何時間（なんじかん）以内（いない）ですか？",
+    "options": [
+      "30分（ぷん）",
+      "1時間（じかん）",
+      "2時間（じかん）",
+      "4時間（じかん）"
+    ],
+    "answer": "2時間（じかん）",
+    "id": 52
+  },
+  {
+    "question": "食品（しょくひん）製造（せいぞう）エリアで一般的（いっぱんてき）に使用（しよう）される作業服（さぎょうふく）の色（いろ）は何色（なにいろ）ですか？",
+    "options": [
+      "黒（くろ）",
+      "青（あお）または白（しろ）",
+      "赤（あか）",
+      "緑（みどり）"
+    ],
+    "answer": "青（あお）または白（しろ）",
+    "id": 53
+  },
+  {
+    "question": "製造（せいぞう）エリアで指輪（ゆびわ）やピアスなどの装飾品（そうしょくひん）が禁止（きんし）されている理由（りゆう）はなぜですか？",
+    "options": [
+      "アレルギーを引（ひ）き起（お）こす可能性（かのうせい）がある",
+      "食品（しょくひん）に落（お）ちる可能性（かのうせい）がある",
+      "作業（さぎょう）の妨（さまた）げになる",
+      "すべて正（ただ）しい"
+    ],
+    "answer": "すべて正（ただ）しい",
+    "id": 54
+  },
+  {
+    "question": "作業（さぎょう）エリアで油（あぶら）が床（ゆか）にこぼれた場合（ばあい）、どうすべきですか？",
+    "options": [
+      "乾（かわ）くまでそのままにする",
+      "すぐに清掃（せいそう）し、表示（ひょうじ）する",
+      "翌朝（よくあさ）報告（ほうこく）する",
+      "紙（かみ）で覆（おお）う"
+    ],
+    "answer": "すぐに清掃（せいそう）し、表示（ひょうじ）する",
+    "id": 55
+  },
+  {
+    "question": "食品（しょくひん）取扱（とりあつか）いに使（つか）い捨（す）て手袋（てぶくろ）を使用（しよう）する目的（もくてき）は何（なん）ですか？",
+    "options": [
+      "手（て）が汚（よご）れないようにするため",
+      "交差（こうさ）汚染（おせん）を防（ふせ）ぐため",
+      "プロフェッショナルに見（み）せるため",
+      "手（て）を温（あたた）めるため"
+    ],
+    "answer": "交差（こうさ）汚染（おせん）を防（ふせ）ぐため",
+    "id": 56
+  },
+  {
+    "question": "使（つか）い捨（す）て手袋（てぶくろ）はいつ交換（こうかん）すべきですか？",
+    "options": [
+      "1時間（じかん）ごと",
+      "顔（かお）や髪（かみ）に触（ふ）れた後（あと）",
+      "汚（よご）れた表面（ひょうめん）に触（ふ）れた後（あと）",
+      "すべて正（ただ）しい"
+    ],
+    "answer": "すべて正（ただ）しい",
+    "id": 57
+  },
+  {
+    "question": "食品（しょくひん）の「バッチ番号（ばんごう）」とは何（なん）ですか？",
+    "options": [
+      "製造者（せいぞうしゃ）の電話番号（でんわばんごう）",
+      "特定（とくてい）の製造（せいぞう）ロットを示（しめ）すコード",
+      "製品（せいひん）の正味（しょうみ）重量（じゅうりょう）",
+      "消費（しょうひ）期限（きげん）コード"
+    ],
+    "answer": "特定（とくてい）の製造（せいぞう）ロットを示（しめ）すコード",
+    "id": 58
+  },
+  {
+    "question": "バッチ番号（ばんごう）が食品安全（しょくひんあんぜん）において重要（じゅうよう）な理由（りゆう）は何（なん）ですか？",
+    "options": [
+      "販売（はんばい）を容易（ようい）にするため",
+      "消費者（しょうひしゃ）を惹（ひ）き付（つ）けるため",
+      "問題（もんだい）発生（はっせい）時（じ）の製品（せいひん）回収（かいしゅう）のため",
+      "価格（かかく）を上（あ）げるため"
+    ],
+    "answer": "問題（もんだい）発生（はっせい）時（じ）の製品（せいひん）回収（かいしゅう）のため",
+    "id": 59
+  },
+  {
+    "question": "新（あたら）しい機械（きかい）を使用（しよう）する前（まえ）に何（なん）をすべきですか？",
+    "options": [
+      "すぐに試（ため）す",
+      "マニュアルを読（よ）み、訓練（くんれん）を受（う）ける",
+      "同僚（どうりょう）に聞（き）く",
+      "自分（じぶん）で推測（すいそく）する"
+    ],
+    "answer": "マニュアルを読（よ）み、訓練（くんれん）を受（う）ける",
+    "id": 60
+  },
+  {
+    "question": "安全靴（あんぜんぐつ）の保護（ほご）機能（きのう）は何（なん）ですか？",
+    "options": [
+      "重（おも）い物（もの）からの足（あし）の保護（ほご）",
+      "滑（すべ）りやすい床（ゆか）での転倒（てんとう）防止（ぼうし）",
+      "化学薬品（かがくやくひん）からの保護（ほご）",
+      "すべて正（ただ）しい"
+    ],
+    "answer": "すべて正（ただ）しい",
+    "id": 61
+  },
+  {
+    "question": "従業員（じゅうぎょういん）の健康診断（けんこうしんだん）はどのくらいの頻度（ひんど）で行（おこな）うべきですか？",
+    "options": [
+      "毎月（まいつき）",
+      "6ヶ月（ろっかげつ）ごと",
+      "毎年（まいとし）",
+      "病気（びょうき）の時（とき）だけ"
+    ],
+    "answer": "毎年（まいとし）",
+    "id": 62
+  },
+  {
+    "question": "「滅菌（めっきん）」とは何（なん）ですか？",
+    "options": [
+      "水（みず）で洗浄（せんじょう）すること",
+      "すべての微生物（びせいぶつ）を除去（じょきょ）すること",
+      "食品（しょくひん）を冷（ひ）やすこと",
+      "腐（くさ）った部分（ぶぶん）を捨（す）てること"
+    ],
+    "answer": "すべての微生物（びせいぶつ）を除去（じょきょ）すること",
+    "id": 63
+  },
+  {
+    "question": "食品（しょくひん）産業（さんぎょう）で一般的（いっぱんてき）に使用（しよう）される滅菌（めっきん）方法（ほうほう）は何（なん）ですか？",
+    "options": [
+      "高温（こうおん）加熱（かねつ）（オートクレーブ）",
+      "極低温（きょくていおん）冷却（れいきゃく）",
+      "石鹸（せっけん）での洗浄（せんじょう）",
+      "日光（にっこう）乾燥（かんそう）"
+    ],
+    "answer": "高温（こうおん）加熱（かねつ）（オートクレーブ）",
+    "id": 64
+  },
+  {
+    "question": "「消毒（しょうどく）」と「滅菌（めっきん）」の違（ちが）いは何（なん）ですか？",
+    "options": [
+      "消毒（しょうどく）は滅菌（めっきん）よりも強力（きょうりょく）",
+      "滅菌（めっきん）はすべての微生物（びせいぶつ）を除去（じょきょ）、消毒（しょうどく）は減少（げんしょう）させるだけ",
+      "違（ちが）いはない",
+      "消毒（しょうどく）は食品（しょくひん）用（よう）、滅菌（めっきん）は器具（きぐ）用（よう）"
+    ],
+    "answer": "滅菌（めっきん）はすべての微生物（びせいぶつ）を除去（じょきょ）、消毒（しょうどく）は減少（げんしょう）させるだけ",
+    "id": 65
+  },
+  {
+    "question": "危険（きけん）区域（くいき）を示（しめ）すために使用（しよう）されるゾーンカラーは何色（なにいろ）ですか？",
+    "options": [
+      "緑（みどり）",
+      "黄（き）",
+      "赤（あか）",
+      "青（あお）"
+    ],
+    "answer": "赤（あか）",
+    "id": 66
+  },
+  {
+    "question": "工場（こうじょう）の床（ゆか）の黄色（きいろ）い線（せん）は何（なん）を意味（いみ）しますか？",
+    "options": [
+      "休憩（きゅうけい）エリア",
+      "作業（さぎょう）区域（くいき）の境界（きょうかい）",
+      "避難（ひなん）経路（けいろ）",
+      "保管（ほかん）エリア"
+    ],
+    "answer": "作業（さぎょう）区域（くいき）の境界（きょうかい）",
+    "id": 67
+  },
+  {
+    "question": "生鮮（せいせん）野菜（やさい）の適切（てきせつ）な保管（ほかん）温度（おんど）は何度（なんど）ですか？",
+    "options": [
+      "0°C - 4°C",
+      "5°C - 10°C",
+      "10°C - 15°C",
+      "室温（しつおん）"
+    ],
+    "answer": "5°C - 10°C",
+    "id": 68
+  },
+  {
+    "question": "床（ゆか）に落（お）ちた食品（しょくひん）はどうすべきですか？",
+    "options": [
+      "洗（あら）って再利用（さいりよう）する",
+      "廃棄（はいき）する",
+      "動物（どうぶつ）に与（あた）える",
+      "再加熱（さいかねつ）する"
+    ],
+    "answer": "廃棄（はいき）する",
+    "id": 69
+  },
+  {
+    "question": "手指（しゅし）消毒剤（しょうどくざい）に効果的（こうかてき）なアルコール濃度（のうど）は何（なん）％ですか？",
+    "options": [
+      "30% - 40%",
+      "40% - 50%",
+      "60% - 70%",
+      "80% - 90%"
+    ],
+    "answer": "60% - 70%",
+    "id": 70
+  },
+  {
+    "question": "「フードディフェンス」とは何（なん）ですか？",
+    "options": [
+      "物理的（ぶつりてき）攻撃（こうげき）に対する防御（ぼうぎょ）",
+      "故意（こい）の汚染（おせん）からの食品（しょくひん）保護（ほご）",
+      "食品（しょくひん）価格（かかく）の防御（ぼうぎょ）",
+      "秘密（ひみつ）レシピの保護（ほご）"
+    ],
+    "answer": "故意（こい）の汚染（おせん）からの食品（しょくひん）保護（ほご）",
+    "id": 71
+  },
+  {
+    "question": "企業内（きぎょうない）で食品安全（しょくひんあんぜん）の責任者（せきにんしゃ）は誰（だれ）ですか？",
+    "options": [
+      "管理者（かんりしゃ）だけ",
+      "製造（せいぞう）従業員（じゅうぎょういん）だけ",
+      "企業内（きぎょうない）の全員（ぜんいん）",
+      "品質管理部（ひんしつかんりぶ）だけ"
+    ],
+    "answer": "企業内（きぎょうない）の全員（ぜんいん）",
+    "id": 72
+  },
+  {
+    "question": "製造（せいぞう）エリアで虫（むし）を見（み）つけたらどうすべきですか？",
+    "options": [
+      "小（ちい）さいのでそのままにする",
+      "殺（ころ）して捨（す）てる",
+      "駆除（くじょ）対策（たいさく）のため報告（ほうこく）する",
+      "証拠（しょうこ）として保存（ほぞん）する"
+    ],
+    "answer": "駆除（くじょ）対策（たいさく）のため報告（ほうこく）する",
+    "id": 73
+  },
+  {
+    "question": "手洗（てあら）い時（とき）、手（て）をこすり合（あ）わせる時間（じかん）はどのくらいですか？",
+    "options": [
+      "5-10秒（びょう）",
+      "15-20秒（びょう）",
+      "30-40秒（びょう）",
+      "1分（ふん）"
+    ],
+    "answer": "15-20秒（びょう）",
+    "id": 74
+  },
+  {
+    "question": "ヘアネットやキャップの役割（やくわり）は何（なん）ですか？",
+    "options": [
+      "見（み）た目（め）を整（ととの）える",
+      "髪（かみ）の毛（け）が食品（しょくひん）に落（お）ちるのを防（ふせ）ぐ",
+      "ほこりから守（まも）る",
+      "すべて正（ただ）しい"
+    ],
+    "answer": "すべて正（ただ）しい",
+    "id": 75
+  },
+  {
+    "question": "安全靴（あんぜんぐつ）はいつ交換（こうかん）すべきですか？",
+    "options": [
+      "毎月（まいつき）",
+      "すり減（へ）ったり壊（こわ）れたりした時（とき）",
+      "毎年（まいとし）",
+      "交換（こうかん）不要（ふよう）"
+    ],
+    "answer": "すり減（へ）ったり壊（こわ）れたりした時（とき）",
+    "id": 76
+  },
+  {
+    "question": "HACCPにおける「是正（ぜせい）措置（そち）」とは何（なん）ですか？",
+    "options": [
+      "予防（よぼう）措置（そち）",
+      "逸脱（いつだつ）発生（はっせい）時（じ）の修正（しゅうせい）措置（そち）",
+      "訓練（くんれん）措置（そち）",
+      "清掃（せいそう）措置（そち）"
+    ],
+    "answer": "逸脱（いつだつ）発生（はっせい）時（じ）の修正（しゅうせい）措置（そち）",
+    "id": 77
+  },
+  {
+    "question": "牛乳（ぎゅうにゅう）の低温（ていおん）殺菌（さっきん）に必要（ひつよう）な最低（さいてい）温度（おんど）は何度（なんど）ですか？",
+    "options": [
+      "60°Cで30分（ぷん）",
+      "72°Cで15秒（びょう）",
+      "85°Cで5分（ぷん）",
+      "100°Cで1分（ぷん）"
+    ],
+    "answer": "72°Cで15秒（びょう）",
+    "id": 78
+  },
+  {
+    "question": "ひび割（わ）れや欠（か）けた食器（しょっき）はどうすべきですか？",
+    "options": [
+      "そのまま使用（しよう）する",
+      "廃棄（はいき）する",
+      "他（ほか）の用途（ようと）に保管（ほかん）する",
+      "従業員（じゅうぎょういん）に譲（ゆず）る"
+    ],
+    "answer": "廃棄（はいき）する",
+    "id": 79
+  },
+  {
+    "question": "作業（さぎょう）エリアは1日（にち）に何回（なんかい）清掃（せいそう）すべきですか？",
+    "options": [
+      "1回（かい）（シフト終了時（しゅうりょうじ））",
+      "2回（かい）（作業前後（さぎょうぜんご））",
+      "3回（かい）（朝（あさ）、昼（ひる）、夕（ゆう））",
+      "必要（ひつよう）な時（とき）は常（つね）に"
+    ],
+    "answer": "必要（ひつよう）な時（とき）は常（つね）に",
+    "id": 80
+  },
+  {
+    "question": "「賞味期限（しょうみきげん）」とは何（なん）ですか？",
+    "options": [
+      "製品（せいひん）の保存可能（ほぞんかのう）期間（きかん）",
+      "スーパーの棚（たな）の長（なが）さ",
+      "保管（ほかん）の高（たか）さ",
+      "製造（せいぞう）時間（じかん）"
+    ],
+    "answer": "製品（せいひん）の保存可能（ほぞんかのう）期間（きかん）",
+    "id": 81
+  },
+  {
+    "question": "製品（せいひん）の賞味期限（しょうみきげん）に影響（えいきょう）する要因（よういん）は何（なん）ですか？",
+    "options": [
+      "保管（ほかん）温度（おんど）",
+      "光（ひかり）",
+      "湿度（しつど）",
+      "すべて正（ただ）しい"
+    ],
+    "answer": "すべて正（ただ）しい",
+    "id": 82
+  },
+  {
+    "question": "客（きゃく）からの食（た）べ残（のこ）しはどうすべきですか？",
+    "options": [
+      "厨房（ちゅうぼう）に戻（もど）す",
+      "廃棄（はいき）する",
+      "従業員（じゅうぎょういん）に与（あた）える",
+      "翌日（よくじつ）まで保管（ほかん）する"
+    ],
+    "answer": "廃棄（はいき）する",
+    "id": 83
+  },
+  {
+    "question": "生卵（なまたまご）の安全（あんぜん）な保管（ほかん）温度（おんど）は何度（なんど）ですか？",
+    "options": [
+      "室温（しつおん）",
+      "10°C - 15°C",
+      "5°C - 7°C",
+      "0°C - 2°C"
+    ],
+    "answer": "5°C - 7°C",
+    "id": 84
+  },
+  {
+    "question": "冷蔵庫（れいぞうこ）のドアに卵（たまご）を保管（ほかん）するリスクは何（なん）ですか？",
+    "options": [
+      "温度（おんど）が不安定（ふあんてい）",
+      "冷（つめ）たすぎる",
+      "熱（あつ）すぎる",
+      "リスクなし"
+    ],
+    "answer": "温度（おんど）が不安定（ふあんてい）",
+    "id": 85
+  },
+  {
+    "question": "冷蔵庫（れいぞうこ）で生卵（なまたまご）はどのくらい保管（ほかん）できますか？",
+    "options": [
+      "1週間（しゅうかん）",
+      "3-4週間（しゅうかん）",
+      "2ヶ月（かげつ）",
+      "3ヶ月（かげつ）"
+    ],
+    "answer": "3-4週間（しゅうかん）",
+    "id": 86
+  },
+  {
+    "question": "冷蔵倉庫（れいぞうそうこ）で停電（ていでん）が発生（はっせい）したらどうすべきですか？",
+    "options": [
+      "何（なに）もしない",
+      "製品（せいひん）を別（べつ）の場所（ばしょ）に移動（いどう）する",
+      "温度（おんど）を監視（かんし）し報告（ほうこく）する",
+      "換気（かんき）のためドアを開（あ）ける"
+    ],
+    "answer": "温度（おんど）を監視（かんし）し報告（ほうこく）する",
+    "id": 87
+  },
+  {
+    "question": "冷凍製品（れいとうせいひん）は冷凍庫（れいとうこ）でどのくらい保管（ほかん）できますか？",
+    "options": [
+      "1ヶ月（かげつ）",
+      "3-6ヶ月（かげつ）",
+      "1年（ねん）",
+      "製品（せいひん）の種類（しゅるい）による"
+    ],
+    "answer": "製品（せいひん）の種類（しゅるい）による",
+    "id": 88
+  },
+  {
+    "question": "肉（にく）が腐敗（ふはい）している兆候（ちょうこう）は何（なん）ですか？",
+    "options": [
+      "色（いろ）が茶色（ちゃいろ）に変（か）わる",
+      "悪臭（あくしゅう）がする",
+      "ぬるぬるする",
+      "すべて正（ただ）しい"
+    ],
+    "answer": "すべて正（ただ）しい",
+    "id": 89
+  },
+  {
+    "question": "挽肉（ひきにく）を調理（ちょうり）する際（さい）の最低（さいてい）内部温度（ないぶおんど）は何度（なんど）ですか？",
+    "options": [
+      "63°C",
+      "71°C",
+      "74°C",
+      "82°C"
+    ],
+    "answer": "71°C",
+    "id": 90
+  },
+  {
+    "question": "「ブランチング」とは何（なん）ですか？",
+    "options": [
+      "高圧（こうあつ）調理（ちょうり）",
+      "沸騰水（ふっとうすい）への短時間（たんじかん）浸漬（しんせき）",
+      "急速（きゅうそく）冷凍（れいとう）",
+      "乾燥（かんそう）"
+    ],
+    "answer": "沸騰水（ふっとうすい）への短時間（たんじかん）浸漬（しんせき）",
+    "id": 91
+  },
+  {
+    "question": "野菜（やさい）の冷凍前（れいとうまえ）にブランチングを行（おこな）う理由（りゆう）は何（なん）ですか？",
+    "options": [
+      "破壊酵素（はかいこうそ）の不活化（ふかつか）",
+      "色（いろ）の改善（かいぜん）",
+      "体積（たいせき）の減少（げんしょう）",
+      "すべて正（ただ）しい"
+    ],
+    "answer": "すべて正（ただ）しい",
+    "id": 92
+  },
+  {
+    "question": "繰（く）り返（かえ）し使用（しよう）した揚（あ）げ油（あぶら）はどうすべきですか？",
+    "options": [
+      "新（あたら）しい油（あぶら）を追加（ついか）する",
+      "濾（こ）して再（さい）利用（りよう）する",
+      "定期的（ていきてき）に交換（こうかん）する",
+      "再販（さいはん）する"
+    ],
+    "answer": "定期的（ていきてき）に交換（こうかん）する",
+    "id": 93
+  },
+  {
+    "question": "揚（あ）げ油（あぶら）は最大（さいだい）何回（なんかい）使用（しよう）できますか？",
+    "options": [
+      "2-3回（かい）",
+      "5-6回（かい）",
+      "10回（かい）",
+      "食品（しょくひん）の種類（しゅるい）による"
+    ],
+    "answer": "食品（しょくひん）の種類（しゅるい）による",
+    "id": 94
+  },
+  {
+    "question": "揚（あ）げ油（あぶら）を交換（こうかん）すべき兆候（ちょうこう）は何（なん）ですか？",
+    "options": [
+      "色（いろ）が濃（こ）くなる",
+      "腐敗臭（ふはいしゅう）がする",
+      "泡（あわ）が多（おお）くなる",
+      "すべて正（ただ）しい"
+    ],
+    "answer": "すべて正（ただ）しい",
+    "id": 95
+  },
+  {
+    "question": "「真空包装（しんくうほうそう）」とは何（なん）ですか？",
+    "options": [
+      "空気（くうき）を含（ふく）む包装（ほうそう）",
+      "空気（くうき）を抜（ぬ）いた包装（ほうそう）",
+      "高圧（こうあつ）包装（ほうそう）",
+      "窒素（ちっそ）包装（ほうそう）"
+    ],
+    "answer": "空気（くうき）を抜（ぬ）いた包装（ほうそう）",
+    "id": 96
+  },
+  {
+    "question": "真空包装（しんくうほうそう）の利点（りてん）は何（なん）ですか？",
+    "options": [
+      "賞味期限（しょうみきげん）の延長（えんちょう）",
+      "酸化（さんか）防止（ぼうし）",
+      "好気性細菌（こうきせいさいきん）の増殖（ぞうしょく）防止（ぼうし）",
+      "すべて正（ただ）しい"
+    ],
+    "answer": "すべて正（ただ）しい",
+    "id": 97
+  },
+  {
+    "question": "真空包装（しんくうほうそう）製品（せいひん）の保管（ほかん）温度（おんど）は何度（なんど）ですか？",
+    "options": [
+      "室温（しつおん）",
+      "5°C以下（いか）",
+      "0°C以下（いか）",
+      "製品（せいひん）による"
+    ],
+    "answer": "製品（せいひん）による",
+    "id": 98
+  },
+  {
+    "question": "真空（しんくう）パックが破損（はそん）したり膨張（ぼうちょう）したりした場合（ばあい）のリスクは何（なん）ですか？",
+    "options": [
+      "製品（せいひん）はまだ安全（あんぜん）",
+      "細菌（さいきん）汚染（おせん）が発生（はっせい）",
+      "見（み）た目の問題（もんだい）のみ",
+      "リスクなし"
+    ],
+    "answer": "細菌（さいきん）汚染（おせん）が発生（はっせい）",
+    "id": 99
+  },
+  {
+    "question": "缶詰（かんづめ）食品（しょくひん）の安全（あんぜん）なpHはどれくらいですか？",
+    "options": [
+      "pH 4.6以上（いじょう）",
+      "pH 4.6未満（みまん）",
+      "中性（ちゅうせい）pH（7）",
+      "pH制限（せいげん）なし"
+    ],
+    "answer": "pH 4.6未満（みまん）",
+    "id": 100
+  }
   ]
 }

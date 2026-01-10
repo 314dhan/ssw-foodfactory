@@ -1,93 +1,244 @@
+/* Variabel Warna dan Tema */
 :root {
-    --primary-color: #007BFF;
-    --primary-hover: #0056b3;
-    --correct-color: #28a745;
-    --incorrect-color: #dc3545;
-    --background-color: #f0f2f5;
+    --primary-color: #4a6bff;
+    --primary-dark: #3a5ae0;
+    --primary-light: #eef1ff;
+    --success-color: #28a745;
+    --warning-color: #ffc107;
+    --danger-color: #dc3545;
+
+    --bg-color: #f8f9fa;
+    --card-bg: #ffffff;
     --text-color: #333;
-    --container-bg: #ffffff;
-    --border-color: #ddd;
-    --font-family: 'Poppins', sans-serif;
+    --text-light: #6c757d;
+    --border-color: #e0e0e0;
+    --shadow-color: rgba(0, 0, 0, 0.08);
+
+    --font-primary: 'Poppins', sans-serif;
+    --font-secondary: 'Inter', sans-serif;
+
+    --border-radius: 12px;
+    --transition: all 0.3s ease;
+}
+
+/* Reset dan Styling Dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    font-family: var(--font-family);
-    background-color: var(--background-color);
+    font-family: var(--font-primary);
+    background-color: var(--bg-color);
     color: var(--text-color);
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    margin: 0;
     padding: 20px;
-    box-sizing: border-box;
+    transition: var(--transition);
 }
 
 .container {
     width: 100%;
-    max-width: 800px;
+    max-width: 900px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 25px;
+}
+
+/* Setup Container */
+#setup-container {
+    background-color: var(--card-bg);
+    border-radius: var(--border-radius);
+    box-shadow: 0 10px 30px var(--shadow-color);
+    padding: 40px;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    animation: fadeIn 0.5s ease-out;
+}
+
+.setup-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.setup-group label {
+    font-weight: 600;
+    color: var(--text-color);
+    font-size: 1.1rem;
+}
+
+#question-count {
+    padding: 12px;
+    border: 2px solid var(--border-color);
+    border-radius: var(--border-radius);
+    font-size: 1rem;
+    font-family: var(--font-primary);
+    width: 100%;
+}
+
+#start-quiz-btn {
+    padding: 16px 28px;
+    border: none;
+    border-radius: var(--border-radius);
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: linear-gradient(90deg, var(--primary-color), var(--primary-dark));
+    color: white;
+    box-shadow: 0 4px 12px rgba(74, 107, 255, 0.3);
+}
+
+#start-quiz-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(74, 107, 255, 0.4);
+}
+
+/* Header dan Selektor Bahasa */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
 }
 
 .language-selector {
     display: flex;
-    justify-content: center;
     gap: 10px;
-    margin-bottom: 10px;
+    background-color: var(--card-bg);
+    padding: 8px;
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 12px var(--shadow-color);
 }
 
 .language-selector button {
     padding: 10px 20px;
-    border: 1px solid var(--border-color);
-    background-color: var(--container-bg);
+    border: none;
+    background-color: transparent;
     border-radius: 8px;
     cursor: pointer;
-    font-family: var(--font-family);
-    font-weight: 600;
-    transition: background-color 0.3s, color 0.3s;
+    font-family: var(--font-primary);
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: var(--transition);
+    color: var(--text-color);
 }
 
 .language-selector button.active {
     background-color: var(--primary-color);
     color: white;
-    border-color: var(--primary-color);
+    box-shadow: 0 4px 8px rgba(74, 107, 255, 0.3);
 }
 
+.language-selector button:hover:not(.active) {
+    background-color: var(--primary-light);
+    color: var(--primary-color);
+}
+
+/* Progress Bar */
+.progress-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.progress-bar {
+    width: 200px;
+    height: 10px;
+    background-color: var(--border-color);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--primary-color), var(--primary-dark));
+    border-radius: 10px;
+    width: 0%;
+    transition: width 0.5s ease;
+}
+
+.progress-text {
+    font-weight: 600;
+    color: var(--text-light);
+    font-size: 0.9rem;
+}
+
+/* Quiz Wrapper */
 #quiz-wrapper {
-    background-color: var(--container-bg);
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    padding: 30px;
+    background-color: var(--card-bg);
+    border-radius: var(--border-radius);
+    box-shadow: 0 10px 30px var(--shadow-color);
+    padding: 40px;
     width: 100%;
+    transition: var(--transition);
+}
+
+.quiz-header {
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 #quiz-title {
-    text-align: center;
     color: var(--primary-color);
-    margin-top: 0;
-    margin-bottom: 30px;
-    font-size: 1.8rem;
-}
-
-#question-container {
-    margin-bottom: 25px;
-}
-
-#question-number {
-    font-size: 1rem;
-    font-weight: 600;
-    color: #888;
     margin-bottom: 10px;
+    font-size: 2.2rem;
+    font-weight: 700;
+    background: linear-gradient(90deg, var(--primary-color), #6a11cb);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.quiz-subtitle {
+    color: var(--text-light);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* Kontainer Pertanyaan */
+#question-container {
+    margin-bottom: 35px;
+    padding: 25px;
+    background-color: var(--primary-light);
+    border-radius: var(--border-radius);
+    border-left: 5px solid var(--primary-color);
+}
+
+.question-number-badge {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 15px;
 }
 
 #question-text {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-weight: 600;
-    line-height: 1.5;
+    line-height: 1.6;
+    color: var(--text-color);
 }
 
+/* Opsi Jawaban */
 .options-grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -96,36 +247,43 @@ body {
 
 .option-btn {
     width: 100%;
-    padding: 15px;
-    background-color: #f8f9fa;
+    padding: 18px 20px;
+    background-color: var(--card-bg);
     border: 2px solid var(--border-color);
-    border-radius: 8px;
+    border-radius: var(--border-radius);
     text-align: left;
     font-size: 1rem;
-    font-family: var(--font-family);
+    font-family: var(--font-primary);
     cursor: pointer;
-    transition: all 0.2s ease-in-out;
+    transition: var(--transition);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: var(--text-color);
 }
 
 .option-btn:hover:not(:disabled) {
-    background-color: #e9ecef;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px var(--shadow-color);
     border-color: var(--primary-color);
 }
 
 .option-btn.selected {
     border-color: var(--primary-color);
-    background-color: #e7f1ff;
+    background-color: var(--primary-light);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(74, 107, 255, 0.15);
 }
 
 .option-btn.correct {
-    background-color: #d4edda;
-    border-color: var(--correct-color);
+    background-color: rgba(40, 167, 69, 0.1);
+    border-color: var(--success-color);
     color: #155724;
 }
 
 .option-btn.incorrect {
-    background-color: #f8d7da;
-    border-color: var(--incorrect-color);
+    background-color: rgba(220, 53, 69, 0.1);
+    border-color: var(--danger-color);
     color: #721c24;
 }
 
@@ -134,48 +292,270 @@ body {
     opacity: 0.8;
 }
 
+/* Tombol Navigasi */
 .navigation-buttons {
-    text-align: center;
-    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
 }
 
-#next-btn, #restart-btn {
-    padding: 12px 30px;
-    background-color: var(--primary-color);
-    color: white;
+#hint-btn,
+#next-btn,
+#review-btn,
+#restart-btn {
+    padding: 14px 28px;
     border: none;
-    border-radius: 8px;
-    font-size: 1.1rem;
+    border-radius: var(--border-radius);
+    font-size: 1rem;
     font-weight: 600;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: var(--transition);
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
-#next-btn:hover, #restart-btn:hover {
-    background-color: var(--primary-hover);
+#hint-btn {
+    background-color: var(--warning-color);
+    color: #212529;
 }
 
-#result-container {
+#hint-btn:hover {
+    background-color: #e0a800;
+    transform: translateY(-2px);
+}
+
+#next-btn,
+#restart-btn {
+    background: linear-gradient(90deg, var(--primary-color), var(--primary-dark));
+    color: white;
+    box-shadow: 0 4px 12px rgba(74, 107, 255, 0.3);
+}
+
+#next-btn:hover,
+#restart-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(74, 107, 255, 0.4);
+}
+
+/* Hasil Kuis */
+.result-header {
     text-align: center;
-}
-
-#score-text {
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin: 20px 0;
-}
-
-#feedback-text {
-    font-size: 1.1rem;
-    color: #555;
     margin-bottom: 30px;
 }
 
-.hide {
-    display: none;
+.trophy-icon {
+    font-size: 4rem;
+    color: var(--warning-color);
+    margin-bottom: 15px;
 }
 
-@media (max-width: 600px) {
+#result-title {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+/* Score Circle */
+.score-circle {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 40px;
+}
+
+.circle-bg {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: var(--border-color);
+    position: relative;
+    overflow: hidden;
+}
+
+.circle-progress {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    clip-path: polygon(50% 50%, 50% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 0%, 50% 0%);
+    background: conic-gradient(var(--primary-color) 0deg, var(--border-color) 0deg);
+    transition: var(--transition);
+}
+
+.score-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#score-percent {
+    font-size: 3rem;
+    font-weight: 700;
+    color: white !important;
+    display: block;
+}
+
+#score-text {
+    font-size: 1.2rem;
+    color: white !important;
+    font-weight: 500;
+}
+
+/* Feedback Text */
+#feedback-text {
+    font-size: 1.2rem;
+    color: var(--text-color);
+    text-align: center;
+    margin-bottom: 40px;
+    line-height: 1.6;
+    padding: 0 20px;
+}
+
+/* Result Buttons */
+.result-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+#review-btn {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+#review-btn:hover {
+    background-color: #5a6268;
+    transform: translateY(-2px);
+}
+
+/* Review Container */
+#review-container {
+    padding: 20px;
+    animation: fadeIn 0.5s ease-out;
+}
+
+#review-title {
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 30px;
+    font-size: 1.8rem;
+}
+
+#review-content {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.review-item {
+    background-color: var(--primary-light);
+    border-left: 5px solid var(--secondary-color);
+    padding: 20px;
+    border-radius: var(--border-radius);
+}
+
+.review-item p {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.review-item .user-answer {
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.review-item .user-answer.correct {
+    background-color: rgba(40, 167, 69, 0.15);
+    color: #155724;
+    border: 1px solid rgba(40, 167, 69, 0.3);
+}
+
+.review-item .user-answer.incorrect {
+    background-color: rgba(220, 53, 69, 0.1);
+    color: #721c24;
+    border: 1px solid rgba(220, 53, 69, 0.2);
+}
+
+.review-item .correct-answer {
+    font-weight: 500;
+    color: var(--success-color);
+}
+
+#back-to-results-btn {
+    background: var(--secondary-color);
+    color: white;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    color: var(--text-light);
+    font-size: 0.9rem;
+    padding-top: 20px;
+    border-top: 1px solid var(--border-color);
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .progress-container {
+        justify-content: space-between;
+    }
+
+    .progress-bar {
+        width: 150px;
+    }
+
+    #quiz-wrapper {
+        padding: 25px;
+    }
+
+    #quiz-title {
+        font-size: 1.8rem;
+    }
+
+    #question-text {
+        font-size: 1.2rem;
+    }
+
+    .option-btn {
+        padding: 15px;
+    }
+
+    .navigation-buttons {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    #hint-btn,
+    #next-btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .result-buttons {
+        flex-direction: column;
+    }
+
+    #review-btn,
+    #restart-btn {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
     body {
         padding: 10px;
     }
@@ -184,11 +564,193 @@ body {
         padding: 20px;
     }
 
-    #quiz-title {
-        font-size: 1.5rem;
+    .language-selector {
+        flex-direction: column;
     }
 
-    #question-text {
-        font-size: 1.1rem;
+    .score-circle {
+        width: 150px;
+        height: 150px;
+    }
+
+    #score-percent {
+        font-size: 2.2rem;
+    }
+}
+
+/* Animasi */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#quiz-container,
+#result-container {
+    animation: fadeIn 0.5s ease-out;
+}
+
+.hide {
+    display: none;
+}
+
+/* Efek hover tambahan */
+button:active {
+    transform: scale(0.98);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--primary-dark);
+}
+
+/* Style untuk menyembunyikan elemen */
+.hide {
+    display: none !important;
+}
+
+/* Header layout ketika language selector disembunyikan */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    transition: var(--transition);
+}
+
+/* Ketika language selector di header disembunyikan, pusatkan progress bar */
+.header:has(.language-selector.hide) {
+    justify-content: center;
+}
+
+.header:has(.language-selector.hide) .progress-container {
+    margin: 0 auto;
+}
+
+/* Style khusus untuk tombol bahasa di header */
+.header .language-selector {
+    display: flex;
+    gap: 10px;
+    transition: var(--transition);
+}
+
+/* Untuk setup page - selector bahasa harus tetap terlihat */
+#setup-container .language-selector {
+    display: flex !important;
+}
+
+/* Review item styling - perbaikan */
+.review-item {
+    background-color: var(--primary-light);
+    border-left: 5px solid var(--primary-color);
+    padding: 20px;
+    border-radius: var(--border-radius);
+    margin-bottom: 15px;
+}
+
+.review-item p {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: var(--text-color);
+}
+
+.user-answer {
+    font-weight: 500;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    border: 1px solid;
+}
+
+.user-answer.correct {
+    background-color: rgba(40, 167, 69, 0.15);
+    color: #155724;
+    border-color: rgba(40, 167, 69, 0.3);
+}
+
+.user-answer.incorrect {
+    background-color: rgba(220, 53, 69, 0.1);
+    color: #721c24;
+    border-color: rgba(220, 53, 69, 0.2);
+}
+
+.correct-answer {
+    font-weight: 500;
+    color: var(--success-color);
+    background-color: rgba(40, 167, 69, 0.1);
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: 1px solid rgba(40, 167, 69, 0.2);
+}
+
+/* Tambahkan untuk secondary color */
+:root {
+    /* ... variabel yang sudah ada ... */
+    --secondary-color: #6c757d;
+    --info-color: #17a2b8;
+}
+
+/* Style untuk tombol review */
+#review-btn {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+#review-btn:hover {
+    background-color: #5a6268;
+    transform: translateY(-2px);
+}
+
+#back-to-results-btn {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 14px 28px;
+    border: none;
+    border-radius: var(--border-radius);
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#back-to-results-btn:hover {
+    background-color: #5a6268;
+    transform: translateY(-2px);
+}
+
+/* Responsif untuk header dengan language selector tersembunyi */
+@media (max-width: 768px) {
+    .header:has(.language-selector.hide) .progress-container {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .header:has(.language-selector.hide) .progress-bar {
+        flex-grow: 1;
+        max-width: 300px;
     }
 }
