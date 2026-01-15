@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const setupLangInBtn = document.getElementById('setup-lang-in');
     const setupLangJpBtn = document.getElementById('setup-lang-jp');
     const questionCountInput = document.getElementById('question-count');
+    const startQuestionIdInput = document.getElementById('start-question-id');
     const startQuizBtn = document.getElementById('start-quiz-btn');
 
     // Main Quiz Elements
@@ -22,6 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const backToResultsBtn = document.getElementById('back-to-results-btn');
     const nextBtn = document.getElementById('next-btn');
     const restartBtn = document.getElementById('restart-btn');
+    const hintBtn = document.getElementById('hint-btn');
 
     // Display Elements
     const questionNumberEl = document.getElementById('question-number');
@@ -132,6 +134,7 @@ document.addEventListener('DOMContentLoaded', () => {
         reviewContainer.classList.add('hide');
         resultContainer.classList.remove('hide');
     });
+    hintBtn.addEventListener('click', showHint);
 
     // --- Setup Flow ---
     function setSetupLanguage(lang) {
@@ -142,6 +145,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function handleStartQuiz() {
         const numQuestions = parseInt(questionCountInput.value, 10);
+        const startQuestionId = parseInt(startQuestionIdInput.value, 10);
         if (numQuestions <= 0 || !allQuestions[selectedLang]) {
             return;
         }
@@ -157,16 +161,22 @@ document.addEventListener('DOMContentLoaded', () => {
         resultContainer.classList.add('hide');
         reviewContainer.classList.add('hide');
 
-        startQuiz(selectedLang, numQuestions);
+        startQuiz(selectedLang, numQuestions, startQuestionId);
     }
     
     // --- Quiz Flow ---
-    function startQuiz(lang, numQuestions) {
+    function startQuiz(lang, numQuestions, startId = 1) {
         selectedLang = lang;
         
-        // Shuffle questions and take the requested number
         if (allQuestions[lang]) {
-            currentQuestions = allQuestions[lang].sort(() => 0.5 - Math.random()).slice(0, numQuestions);
+            let questionsSource = allQuestions[lang];
+            
+            // Find the starting index based on the provided startId
+            const startIndex = Math.max(0, questionsSource.findIndex(q => q.id === startId));
+            
+            // Get the questions starting from the startIndex, and limit by numQuestions
+            currentQuestions = questionsSource.slice(startIndex, startIndex + numQuestions);
+
         } else {
             currentQuestions = [];
             console.error(`Tidak ada soal untuk bahasa: ${lang}`);
@@ -208,7 +218,7 @@ document.addEventListener('DOMContentLoaded', () => {
         updateProgressBar(currentQuestionIndex + 1, currentQuestions.length);
         const question = currentQuestions[currentQuestionIndex];
         questionNumberEl.textContent = `${langConfig[selectedLang].questionLabel} ${currentQuestionIndex + 1}/${currentQuestions.length}`;
-        questionTextEl.textContent = question.question;
+        questionTextEl.textContent = `(${question.id}) ${question.question}`;
 
         question.options.forEach(option => {
             const button = document.createElement('button');
@@ -226,6 +236,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function resetState() {
         optionsContainer.innerHTML = '';
         nextBtn.classList.add('hide');
+        hintBtn.disabled = false;
     }
 
     function selectAnswer(selectedButton, selectedOption) {
@@ -301,6 +312,16 @@ document.addEventListener('DOMContentLoaded', () => {
             `;
             reviewContent.appendChild(reviewItem);
         });
+    }
+
+    function showHint() {
+        const correctAnswer = currentQuestions[currentQuestionIndex].answer;
+        Array.from(optionsContainer.children).forEach(button => {
+            if (button.innerText === correctAnswer) {
+                button.classList.add('hint-highlight');
+            }
+        });
+        hintBtn.disabled = true;
     }
 
     // Initial state
