@@ -39,7 +39,8 @@ body {
     padding: 20px;
     transition: var(--transition);
     position: relative; /* Added for pseudo-element positioning */
-    overflow: hidden; /* Prevent background from overflowing if larger */
+    overflow-y: auto; /* Allow vertical scrolling */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 body::before {
