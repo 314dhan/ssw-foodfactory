@@ -34,7 +34,6 @@ body {
     color: var(--text-color);
     display: flex;
     justify-content: center;
-    align-items: center;
     min-height: 100vh;
     padding: 20px;
     transition: var(--transition);
@@ -45,7 +44,7 @@ body {
 
 body::before {
     content: "";
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
