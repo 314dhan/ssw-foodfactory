@@ -49,11 +49,11 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('assets/images/sswfood.png');
+    background-image: url('../assets/images/sswfood.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    opacity: 0.15; /* Adjust for desired transparency */
+    opacity: 0.20; /* Adjust for desired transparency */
     z-index: -1; /* Place it behind other content */
 }
 
