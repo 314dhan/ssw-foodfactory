@@ -300,7 +300,7 @@ function updateCategoryCounts() {
 // Load all vocabulary data
 async function loadAllVocabularyData() {
     try {
-        const response = await fetch('kotoba-foodmanufacture.json');
+        const response = await fetch('../data/kotoba-foodmanufacture.json');
         const data = await response.json();
         
         // Flatten all vocabulary from all categories
