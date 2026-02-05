@@ -101,7 +101,7 @@ body::before {
     width: 100%;
 }
 
-#start-quiz-btn {
+#start-quiz-btn, #start-flashcard-btn {
     padding: 16px 28px;
     border: none;
     border-radius: var(--border-radius);
@@ -118,7 +118,7 @@ body::before {
     box-shadow: 0 4px 12px rgba(74, 107, 255, 0.3);
 }
 
-#start-quiz-btn:hover {
+#start-quiz-btn:hover, #start-flashcard-btn:hover {
     transform: translateY(-2px);
     box-shadow: 0 6px 18px rgba(74, 107, 255, 0.4);
 }
